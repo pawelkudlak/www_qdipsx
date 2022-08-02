@@ -1,0 +1,42 @@
+.footerMenu {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    transition: 0.3s;
+    position: fixed;
+    z-index: 10000;
+    bottom: 0px;
+    right: 0px;
+    background-color: white;
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+#kontaktButton,
+#socialMediaButton {
+    display: inline-block;
+    padding: 10px 15px 10px 15px;
+    text-decoration: none;
+    color: black;
+}
+
+#kontaktButton {
+    border-right: 1px solid;
+}
+
+#kontaktButton:hover {
+    cursor: pointer;
+    color: rgb(108, 108, 194);
+}
+
+#socialMediaButton:hover {
+    cursor: pointer;
+    color: rgb(108, 108, 194);
+}
+
+#kontaktButton:active {
+    cursor: pointer;
+}
+
+#socialMediaButton:active {
+    cursor: pointer;
+}

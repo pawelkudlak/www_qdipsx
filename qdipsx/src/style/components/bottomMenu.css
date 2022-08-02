@@ -1,0 +1,20 @@
+.bottomMenuButton {
+    background-color: gray;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    padding: 10px 15px 10px 15px;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.bottomMenuButton:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+.bottomMenuButton:active {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
