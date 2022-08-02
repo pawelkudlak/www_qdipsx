@@ -1,0 +1,255 @@
+.container {
+    position: relative;
+    top: 100px;
+    width: 70%;
+    margin: auto;
+}
+
+.sonyContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.PS1GameCollectionButton {
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    margin: 5px;
+    /* background-image: url("../../img/PS1_console.jpeg"); */
+    transition: transform .1s;
+}
+
+.PS2GameCollectionButton {
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    margin: 5px;
+    /* background-image: url("../../img/PS2_console.jpeg"); */
+    transition: transform .1s;
+}
+
+.PS3GameCollectionButton {
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    margin: 5px;
+    /* background-image: url("../../img/PS3_console.jpeg"); */
+    transition: transform .1s;
+}
+
+.PS4GameCollectionButton {
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    margin: 5px;
+    /* background-image: url("../../img/PS4_console.jpeg"); */
+    transition: transform .1s;
+}
+
+.PSPGameCollectionButton {
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    margin: 5px;
+    /* background-image: url("../../img/PSP_console.jpeg"); */
+    transition: transform .1s;
+}
+
+.PS1GameCollectionButton:hover  {
+    transform: scale(1.1)
+}
+.PS2GameCollectionButton:hover  {
+    transform: scale(1.1)
+}
+.PS3GameCollectionButton:hover {
+    transform: scale(1.1)
+}
+.PS4GameCollectionButton:hover {
+    transform: scale(1.1)
+}
+.PSPGameCollectionButton:hover {
+    transform: scale(1.1)
+}
+
+.XBCGameCollectionButton {
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    margin: 5px;
+    /* background-image: url("../../img/XBC_console.jpeg"); */
+    transition: transform .1s;
+}
+
+.X360GameCollectionButton {
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    margin: 5px;
+    /* background-image: url("../../img/X360_console.jpeg"); */
+    transition: transform .1s;
+}
+
+.XOneGameCollectionButton {
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    margin: 5px;
+    /* background-image: url("../../img/XOne_console.jpeg"); */
+    transition: transform .1s;
+}
+
+.XSSGameCollectionButton {
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    margin: 5px;
+    /* background-image: url("../../img/XSS_console.jpeg"); */
+    transition: transform .1s;
+}
+
+.XBCGameCollectionButton:hover  {
+    transform: scale(1.1)
+}
+.X360GameCollectionButton:hover  {
+    transform: scale(1.1)
+}
+.XOneGameCollectionButton:hover {
+    transform: scale(1.1)
+}
+.XSSGameCollectionButton:hover {
+    transform: scale(1.1)
+}
+
+.GBAGameCollectionButton {
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    margin: 5px;
+    /* background-image: url("../../img/GBA_console.jpeg"); */
+    transition: transform .1s;
+}
+
+.SNESGameCollectionButton {
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    margin: 5px;
+    /* background-image: url("../../img/SNES_console.jpeg"); */
+    transition: transform .1s;
+}
+
+.DSGameCollectionButton {
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    margin: 5px;
+    /* background-image: url("../../img/DS_console.jpeg"); */
+    transition: transform .1s;
+}
+
+.WiiGameCollectionButton {
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    margin: 5px;
+    /* background-image: url("../../img/Wii_console.jpeg"); */
+    transition: transform .1s;
+}
+
+.GCGameCollectionButton {
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    margin: 5px;
+    /* background-image: url("../../img/GC_console.jpeg"); */
+    transition: transform .1s;
+}
+
+.GCGameCollectionButton:hover  {
+    transform: scale(1.1)
+}
+.GBAGameCollectionButton:hover  {
+    transform: scale(1.1)
+}
+.SNESGameCollectionButton:hover  {
+    transform: scale(1.1)
+}
+.DSGameCollectionButton:hover {
+    transform: scale(1.1)
+}
+.WiiGameCollectionButton:hover {
+    transform: scale(1.1)
+}
+
+.PCGameCollectionButton {
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    margin: 5px;
+    /* background-image: url("../../img/PC_console.jpeg"); */
+    transition: transform .1s;
+}
+
+.PCGameCollectionButton:hover  {
+    transform: scale(1.1)
+}
+
+.gazetyContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.CDAGazetaCollectionButton {
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    margin: 5px;
+    /* background-image: url("../../img/CDA_gazeta.jpeg"); */
+    transition: transform .1s;
+}
+
+.PSXEGazetaCollectionButton {
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    margin: 5px;
+    /* background-image: url("../../img/PSXE_gazeta.jpeg"); */
+    transition: transform .1s;
+}
+
+.NeoPlusGazetaCollectionButton {
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    margin: 5px;
+    /* background-image: url("../../img/NeoPlus_gazeta.jpeg"); */
+    transition: transform .1s;
+}
+
+.CDAGazetaCollectionButton:hover  {
+    transform: scale(1.1)
+}
+.PSXEGazetaCollectionButton:hover  {
+    transform: scale(1.1)
+}
+.NeoPlusGazetaCollectionButton:hover  {
+    transform: scale(1.1)
+}
+
+#ps1GamePosition {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 30%;
+}
+
+#buttonDoPobieraniaListyGier {
+    margin-top: 50px;
+}
+
+#ps1GamesList {
+    margin-top: 25px;
+}

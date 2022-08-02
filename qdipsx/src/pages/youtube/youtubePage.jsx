@@ -1,8 +1,11 @@
 import React from 'react'
+import YouTubeYearMenu from '../../components/youtube/youTubeYearMenu'
 
 const YoutubePage = () => {
   return (
-    <div>YoutubePage</div>
+    <div>
+      <YouTubeYearMenu/>
+    </div>
   )
 }
 

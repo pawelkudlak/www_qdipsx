@@ -1,0 +1,41 @@
+.ps1YouTubeBoxes {
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#ps11994YouTubeBox,
+#ps11995YouTubeBox,
+#ps11996YouTubeBox {
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    margin: 5px;
+    transition: 0.2s;
+}
+
+#ps11994YouTubeBox {
+    background-image: url("../../img/youTubePS11994Button.jpg");
+}
+
+#ps11995YouTubeBox {
+    background-image: url("../../img/youTubePS11994Button.jpg");
+}
+
+#ps11996YouTubeBox {
+    background-image: url("../../img/youTubePS11994Button.jpg");
+}
+
+#ps11994YouTubeBox:hover {
+    transform: scale(103%);
+}
+
+#ps11995YouTubeBox:hover {
+    transform: scale(103%);
+}
+
+#ps11996YouTubeBox:hover {
+    transform: scale(103%);
+}

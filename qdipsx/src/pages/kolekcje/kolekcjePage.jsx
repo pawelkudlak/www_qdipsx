@@ -1,8 +1,11 @@
 import React from 'react'
+import KolekcjeMenuComponent from '../../components/kolekcje/kolekcjeMenu.component'
 
 const KolekcjePage = () => {
   return (
-    <div>KolekcjePage</div>
+    <div>
+      <KolekcjeMenuComponent />
+    </div>
   )
 }
 
