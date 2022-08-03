@@ -11,8 +11,8 @@ const YouTubeYearMenu = () => {
             <hr></hr>
             <div className='ps1YouTubeBoxes'>
                     <div onClick={() => navigate(`/youtube/ps1year1994`)} id='ps11994YouTubeBox'></div>
-                    <div onClick={() => navigate(`/youtube/ps1year1995`)}id='ps11995YouTubeBox'></div>
-                    <div onClick={() => navigate(`/youtube/ps1year1996`)}id='ps11996YouTubeBox'></div>
+                    <div onClick={() => navigate(`/youtube/ps1year1995`)} id='ps11995YouTubeBox'></div>
+                    <div onClick={() => navigate(`/youtube/ps1year1996`)} id='ps11996YouTubeBox'></div>
             </div>
         </div>
     )

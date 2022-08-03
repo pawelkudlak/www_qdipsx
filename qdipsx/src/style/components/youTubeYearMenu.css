@@ -1,5 +1,4 @@
 .ps1YouTubeBoxes {
-    background-color: aquamarine;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

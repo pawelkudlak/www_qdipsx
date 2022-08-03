@@ -11,7 +11,7 @@ const KolekcjeMenuComponent = () => {
       <h1>Gry</h1>
       <hr></hr>
       <div className='sonyContainer'>
-        <div className='PS1GameCollectionButton' onClick={() => navigate(`/kolekcje/ps1gameslist`)}>PS1</div>
+        <div className='PS1GameCollectionButton' onClick={() => navigate(`/kolekcje/ps1gameslist`)}></div>
         <div className='PS2GameCollectionButton'></div>
         <div className='PS3GameCollectionButton'></div>
         <div className='PS4GameCollectionButton'></div>

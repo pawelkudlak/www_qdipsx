@@ -17,7 +17,7 @@
     width: 200px;
     text-align: center;
     margin: 5px;
-    /* background-image: url("../../img/PS1_console.jpeg"); */
+    background-image: url("../../img/ps1_logo.jpg");
     transition: transform .1s;
 }
 
@@ -26,7 +26,7 @@
     width: 200px;
     text-align: center;
     margin: 5px;
-    /* background-image: url("../../img/PS2_console.jpeg"); */
+    background-image: url("../../img/ps2_logo.jpg");
     transition: transform .1s;
 }
 
@@ -35,7 +35,7 @@
     width: 200px;
     text-align: center;
     margin: 5px;
-    /* background-image: url("../../img/PS3_console.jpeg"); */
+    background-image: url("../../img/ps3_logo.jpg");
     transition: transform .1s;
 }
 
@@ -44,7 +44,7 @@
     width: 200px;
     text-align: center;
     margin: 5px;
-    /* background-image: url("../../img/PS4_console.jpeg"); */
+    background-image: url("../../img/ps4_logo.jpg");
     transition: transform .1s;
 }
 
@@ -53,7 +53,7 @@
     width: 200px;
     text-align: center;
     margin: 5px;
-    /* background-image: url("../../img/PSP_console.jpeg"); */
+    background-image: url("../../img/psp_logo.jpg");
     transition: transform .1s;
 }
 
@@ -78,7 +78,7 @@
     width: 200px;
     text-align: center;
     margin: 5px;
-    /* background-image: url("../../img/XBC_console.jpeg"); */
+    background-image: url("../../img/xbc_logo.jpg");
     transition: transform .1s;
 }
 
@@ -87,7 +87,7 @@
     width: 200px;
     text-align: center;
     margin: 5px;
-    /* background-image: url("../../img/X360_console.jpeg"); */
+    background-image: url("../../img/x360_logo.jpg");
     transition: transform .1s;
 }
 
@@ -96,7 +96,7 @@
     width: 200px;
     text-align: center;
     margin: 5px;
-    /* background-image: url("../../img/XOne_console.jpeg"); */
+    background-image: url("../../img/xOne_logo.jpg");
     transition: transform .1s;
 }
 
@@ -105,7 +105,7 @@
     width: 200px;
     text-align: center;
     margin: 5px;
-    /* background-image: url("../../img/XSS_console.jpeg"); */
+    background-image: url("../../img/xSS_logo.jpg");
     transition: transform .1s;
 }
 
@@ -127,7 +127,7 @@
     width: 200px;
     text-align: center;
     margin: 5px;
-    /* background-image: url("../../img/GBA_console.jpeg"); */
+    background-image: url("../../img/GBA_logo.jpg");
     transition: transform .1s;
 }
 
@@ -136,7 +136,7 @@
     width: 200px;
     text-align: center;
     margin: 5px;
-    /* background-image: url("../../img/SNES_console.jpeg"); */
+    background-image: url("../../img/SNES_logo.jpg");
     transition: transform .1s;
 }
 
@@ -145,7 +145,7 @@
     width: 200px;
     text-align: center;
     margin: 5px;
-    /* background-image: url("../../img/DS_console.jpeg"); */
+    background-image: url("../../img/NDS_logo.jpg");
     transition: transform .1s;
 }
 
@@ -154,7 +154,7 @@
     width: 200px;
     text-align: center;
     margin: 5px;
-    /* background-image: url("../../img/Wii_console.jpeg"); */
+    background-image: url("../../img/NWii_logo.jpg");
     transition: transform .1s;
 }
 
@@ -163,7 +163,7 @@
     width: 200px;
     text-align: center;
     margin: 5px;
-    /* background-image: url("../../img/GC_console.jpeg"); */
+    background-image: url("../../img/NGC_logo.jpg");
     transition: transform .1s;
 }
 
@@ -188,7 +188,7 @@
     width: 200px;
     text-align: center;
     margin: 5px;
-    /* background-image: url("../../img/PC_console.jpeg"); */
+    background-image: url("../../img/PC_logo.jpg");
     transition: transform .1s;
 }
 
@@ -208,7 +208,7 @@
     width: 200px;
     text-align: center;
     margin: 5px;
-    /* background-image: url("../../img/CDA_gazeta.jpeg"); */
+    background-image: url("../../img/CDA_logo.jpg");
     transition: transform .1s;
 }
 
@@ -217,7 +217,7 @@
     width: 200px;
     text-align: center;
     margin: 5px;
-    /* background-image: url("../../img/PSXE_gazeta.jpeg"); */
+    background-image: url("../../img/PSE_logo.jpg");
     transition: transform .1s;
 }
 
@@ -226,7 +226,7 @@
     width: 200px;
     text-align: center;
     margin: 5px;
-    /* background-image: url("../../img/NeoPlus_gazeta.jpeg"); */
+    background-image: url("../../img/NeoPlus_logo.jpg");
     transition: transform .1s;
 }
 
