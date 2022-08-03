@@ -1,8 +1,11 @@
 import React from 'react'
+import LifeForceTenkaPage from './lifeForceTenkaPage'
 
 const ArtykulyPage = () => {
   return (
-    <div>ArtykulyPage</div>
+    <div>
+      <LifeForceTenkaPage />
+    </div>
   )
 }
 
