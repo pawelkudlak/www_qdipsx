@@ -2,7 +2,9 @@ import React from 'react'
 
 const OMniePage = () => {
   return (
-    <div>OMniePage</div>
+    <div>
+      
+    </div>
   )
 }
 
