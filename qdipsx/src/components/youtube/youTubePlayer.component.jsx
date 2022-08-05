@@ -1,5 +1,6 @@
 import { useState } from "react";
 import ReactPlayer from "react-player";
+import "../../style/components/youTubePlayer.css"
 
 const YouTubePlayer = (link) => {
 
@@ -9,11 +10,11 @@ const YouTubePlayer = (link) => {
         setShowVideo(!showVideo);
     }
 
-    const buttonText = showVideo ? "Ukryj film" : "Wyświetl film";
+    const buttonText = showVideo ? "Ukryj film" : "Wyświetl Recenzję na YouTube";
 
     return (
         <div>
-            <button onClick={toggleShowVideo}>{buttonText}</button>
+            <div id="youTubeShowerButton" onClick={toggleShowVideo}>{buttonText}</div>
             {showVideo && <ReactPlayer url={link} />}
         </div>
     )

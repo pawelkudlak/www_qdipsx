@@ -1,0 +1,23 @@
+.gameInfoBlock {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    padding: 10px;
+}
+
+.gameInfoDescription {
+    font-size: 20px;
+    width: 400px;
+}
+
+#youTubeMiniature {
+    width: 500px;
+}
+
+#gameTitle {
+    font-size: 25px;
+    font-weight: bold;
+}

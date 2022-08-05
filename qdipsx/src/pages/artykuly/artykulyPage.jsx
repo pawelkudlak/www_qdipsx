@@ -1,5 +1,5 @@
 import React from 'react'
-import LifeForceTenkaPage from './lifeForceTenkaPage'
+import LifeForceTenkaPage from './lifeForceTenkaPageV2'
 
 const ArtykulyPage = () => {
   return (
