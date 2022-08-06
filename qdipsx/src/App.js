@@ -1,6 +1,8 @@
+import './style/pages/app.css'
+
 function App() {
   return (
-    <div>
+    <div className='app'>
       <h1>Witaj na mojej stronie, która jest cały czas w budowie!</h1>
       <h2>Strona główna - nowości itd.</h2>
       <h2>YouTube - moje filmy i recenzje z YT</h2>

@@ -1,0 +1,43 @@
+.shortArticle {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 70%;
+    margin-left: 15%;
+    justify-items: end;
+    justify-items: center;
+    border: 1px solid black;
+}
+
+.shortImage {
+    width: 200px;
+    margin-top: 15%;
+}
+
+#wstep {
+    text-align: justify;
+    margin: 5%;
+}
+
+#goToFullArticleButton {
+    background-color: gray;
+    text-align: center;
+    color: white;
+    padding: 10px 15px 10px 15px;
+    transition: 0.3s;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+}
+
+#goToFullArticleButton:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+#goToFullArticleButton:active {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}

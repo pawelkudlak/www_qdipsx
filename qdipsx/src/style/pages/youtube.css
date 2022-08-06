@@ -1,0 +1,222 @@
+.youtube {
+    margin-top: 100px;
+}
+
+#styczen,
+#luty,
+#marzec,
+#kwiecien,
+#maj,
+#czerwiec,
+#lipiec,
+#sierpien,
+#wrzesien {
+    display: none;
+}
+
+#showHidestyczen {
+    background-color: gray;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    width: 100%;
+    padding: 10px 15px 10px 15px;
+    transition: 0.3s;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#showHidestyczen:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+#showHidestyczen:active {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+#showHideluty {
+    background-color: gray;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    width: 100%;
+    padding: 10px 15px 10px 15px;
+    transition: 0.3s;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#showHideluty:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+#showHideluty:active {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+#showHidemarzec {
+    background-color: gray;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    width: 100%;
+    padding: 10px 15px 10px 15px;
+    transition: 0.3s;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#showHidemarzec:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+#showHidemarzec:active {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+#showHidekwiecien {
+    background-color: gray;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    width: 100%;
+    padding: 10px 15px 10px 15px;
+    transition: 0.3s;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#showHidekwiecien:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+#showHidekwiecien:active {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+#showHidemaj {
+    background-color: gray;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    width: 100%;
+    padding: 10px 15px 10px 15px;
+    transition: 0.3s;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#showHidemaj:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+#showHidemaj:active {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+#showHideczerwiec {
+    background-color: gray;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    width: 100%;
+    padding: 10px 15px 10px 15px;
+    transition: 0.3s;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#showHideczerwiec:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+#showHideczerwiec:active {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+#showHidelipiec {
+    background-color: gray;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    width: 100%;
+    padding: 10px 15px 10px 15px;
+    transition: 0.3s;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#showHidelipiec:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+#showHidelipiec:active {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+#showHidesierpien {
+    background-color: gray;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    width: 100%;
+    padding: 10px 15px 10px 15px;
+    transition: 0.3s;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#showHidesierpien:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+#showHidesierpien:active {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+#showHidewrzesien {
+    background-color: gray;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    width: 100%;
+    padding: 10px 15px 10px 15px;
+    transition: 0.3s;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#showHidewrzesien:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+#showHidewrzesien:active {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}

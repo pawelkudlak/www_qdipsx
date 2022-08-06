@@ -6,9 +6,9 @@ import screen4 from './img_LifeForceTenka/ss13.jpg'
 import screen5 from './img_LifeForceTenka/ss8.jpg'
 import screen6 from './img_LifeForceTenka/ss4.jpg'
 import logo from './img_LifeForceTenka/LifeforceTenkaLogo.png'
-import "../../style/components/lifeForceTenkaPage.css"
+import "../../style/components/lifeForceTenkaPageV2.css"
 
-const LifeForceTenkaPage = () => {
+const LifeForceTenkaPageV2 = () => {
 
     const [showArticle, setShowArticle] = useState();
 
@@ -83,4 +83,4 @@ const LifeForceTenkaPage = () => {
     )
 }
 
-export default LifeForceTenkaPage
+export default LifeForceTenkaPageV2

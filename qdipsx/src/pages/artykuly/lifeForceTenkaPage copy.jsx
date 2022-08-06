@@ -47,12 +47,14 @@ const LifeForceTenkaPage = () => {
         )
     }
 
-    const fullArtykul = () => {
-        return (
-            <div>
-                <div className='artykul'>
-                    <img className='image' src={logo} alt={"źródło: samemu okroiłem z okładki"} title={"Tak wygląda logo gry"}></img>
-                    <p lang='pl' id='wstep'>Strzelanka na PlayStation, którą pamiętałem z Dema i zawsze chciałem zagrać w jej pełną wersję. Po jej zakupie po 20-tu latach, stwierdziłem że niepotrzebnie tyle zwlekałem, tak jakby...</p>
+    return (
+        <div>
+            <div className='artykul'>
+                {/* <img className='image' src={logo} alt={"źródło: samemu okroiłem z okładki"} title={"Tak wygląda logo gry"}></img>
+                <p lang='pl' id='wstep'>Strzelanka na PlayStation, którą pamiętałem z Dema i zawsze chciałem zagrać w jej pełną wersję. Po jej zakupie po 20-tu latach, stwierdziłem że niepotrzebnie tyle zwlekałem, tak jakby...</p> */}
+                {wstepArtykulu()}
+                <span id='breakPoint'></span>
+                <span id='more'>
                     <img className='image' src={screen1} alt={"źródło: https://psxdatacenter.com/games/P/L/SLES-00613.html"} title={"Tak wygląda autocelowanie w grze"}></img>
                     <p lang='pl'>Fabuła w tej grze jest tylko zapychaczem, który wyraźnie pokazuje, że twórcy wstawili ją chyba trochę dla żartów. Zakończenie jest rozczarowujące, gdyż po tym co przeżywamy, chciałoby się zobaczyć coś więcej, niż marne kilka sekund.</p>
                     <img className='image' src={screen2} alt={"źródło: https://psxdatacenter.com/games/P/L/SLES-00613.html"} title={"Widzisz taką przestrzeć zazwyczaj w 10 fps-ach"}></img>
@@ -72,14 +74,9 @@ const LifeForceTenkaPage = () => {
                         <img></img>
                         <img></img>
                     </div>
-                </div>
+                </span>
+                {/* <button onClick={readMore} id='moreArticleButton'>{buttonText}</button> */}
             </div>
-        )
-    }
-
-    return (
-        <div>
-            {wstepArtykulu()}
         </div>
     )
 }

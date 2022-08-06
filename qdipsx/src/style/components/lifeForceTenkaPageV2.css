@@ -1,46 +1,35 @@
-.shortArticle {
-    display: inline;
-}
-
-.shortImage {
-    width: 200px;
-}
-
-#goToFullArticleButton {
-    background-color: gray;
-    text-align: center;
-    color: white;
-    display: inline-block;
-    padding: 10px 15px 10px 15px;
-    transition: 0.3s;
-    text-decoration: none;
-    cursor: pointer;
-    margin-top: 5%;
-    margin-left: 20%;
-}
-
-#goToFullArticleButton:hover {
-    background-color: black;
-    cursor: pointer;
-}
-
-#goToFullArticleButton:active {
-    background-color: white;
-    color: black;
-    cursor: pointer;
-}
-
 .artykul {
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; */
+    width: 70%;
     text-align: justify;
-    column-gap: 30px;
-    column-width: 200px;
-    font-size: 16px;
 }
+
+/* #firstRow {
+    width: 300px;
+    margin: 10px;
+    text-align: justify;
+}
+
+#secondRow {
+    width: 300px;
+    margin: 10px;
+    text-align: justify;
+}
+
+#thirdRow {
+    width: 300px;
+    margin: 10px;
+    text-align: justify;
+} */
 
 .image {
-    width: 100%;
+    width: 300px;
     margin-left: auto;
     margin-right: auto;
+    width: 50%;
     display: block;
 }
 
@@ -53,11 +42,11 @@
 }
 
 .tabela {
-    width: 200px;
+    width: 300px;
 }
 
 table, th, td {
-    width: 220px;
+    width: 300px;
     border: 1px solid;
     border-collapse: collapse;
 }

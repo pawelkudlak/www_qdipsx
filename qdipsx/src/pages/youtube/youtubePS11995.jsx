@@ -1,9 +1,10 @@
 import React from 'react'
+import '../../style/pages/youtube.css'
 import { GameInfoForYoutube } from '../../components/youtube/gameInfoForYoutube.component'
 
 const YoutubePS11995 = () => {
   return (
-    <div>
+    <div className='youtube'>
         {GameInfoForYoutube("Ridge Racer", "SCES-00001", "29 września 1995", "Namco", "Sony", "https://www.youtube.com/embed/yEn1GEfpn58")}
         {GameInfoForYoutube("Battle Arena Toshinden", "SCES-00002", "9 września 1995", "Takara", "Sony", "https://www.youtube.com/embed/mp23HydazdE")}
         {GameInfoForYoutube("Rapid Reload / Gunner's Heaven", "SCES-00004", "1 września 1995", "Media Vision", "Sony", "https://www.youtube.com/embed/O36G9xIWpIY")}

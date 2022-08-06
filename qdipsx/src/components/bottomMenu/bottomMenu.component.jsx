@@ -4,15 +4,16 @@ import "../../style/components/bottomMenu.css"
 
 const BottomMenuComponent = () => {
   return (
-    <div>
+    <div className='bottomMenuContainer'>
       <nav>
         <NavLink className={'bottomMenuButton'} to={"/"}>Strona Główna</NavLink>
         <NavLink className={'bottomMenuButton'} to={"/youtube"}>YouTube</NavLink>
         <NavLink className={'bottomMenuButton'} to={"/artykuly"}>Artykuły</NavLink>
         <NavLink className={'bottomMenuButton'} to={"/kolekcje"}>Kolekcje</NavLink>
         <NavLink className={'bottomMenuButton'} to={"/omnie"}>O mnie</NavLink>
-        </nav>
+      </nav>
     </div>
-  )}
+  )
+}
 
 export default BottomMenuComponent
