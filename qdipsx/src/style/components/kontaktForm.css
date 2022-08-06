@@ -1,0 +1,13 @@
+.calyFormularz {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.daneWejscioweFormularza {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}

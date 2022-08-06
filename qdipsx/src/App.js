@@ -12,7 +12,7 @@ function App() {
       <h3>- książki?</h3>
       <h3>- muzyka?</h3>
       <h2>O mnie - jakieś tam info kim jestem itd.</h2>
-      <h2>Kontakt - formularz kontaktowy</h2>
+      <h2><del>Kontakt - formularz kontaktowy</del></h2>
       <h2>Social Media - linki do nich lub jakieś ciekawe moduły</h2>
     </div>
   );
