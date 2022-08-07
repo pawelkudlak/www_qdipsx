@@ -1,8 +1,12 @@
 .artykul {
     text-align: justify;
+    column-count: 3;
     column-gap: 30px;
     column-width: 200px;
     font-size: 16px;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .image {
@@ -12,19 +16,20 @@
     display: block;
 }
 
-.logo {
+#logoCBF {
     margin-left: auto;
     margin-right: auto;
     margin-top: 15px;
+    width: 100%;
     display: block;
 }
 
 .tabela {
-    width: 300px;
+    width: 100%;
 }
 
 table, th, td {
-    width: 300px;
+    width: 100%;
     border: 1px solid;
     border-collapse: collapse;
 }

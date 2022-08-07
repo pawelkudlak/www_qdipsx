@@ -10,44 +10,29 @@ import "../../style/components/lifeForceTenkaPage.css"
 
 const LifeForceTenkaPage = () => {
 
-    const [showArticle, setShowArticle] = useState();
+    // const [showArticle, setShowArticle] = useState();
 
-    const toggleShowArticle = () => {
-        setShowArticle(!showArticle);
-    }
+    // const toggleShowArticle = () => {
+    //     setShowArticle(!showArticle);
+    // }
 
-    const buttonText = showArticle ? "Czytaj mniej" : "Czytaj więcej";
+    // const buttonText = showArticle ? "Czytaj mniej" : "Czytaj więcej";
 
-    const readMore = () => {
-        let breakPoint = document.getElementById("breakPoint");
-        let more = document.getElementById("more");
+    // const readMore = () => {
+    //     let breakPoint = document.getElementById("breakPoint");
+    //     let more = document.getElementById("more");
 
-        if (breakPoint.style.display === "none") {
-            breakPoint.style.display = "inline";
-            more.style.display = "none";
-            toggleShowArticle()
-        } else {
-            breakPoint.style.display = "none";
-            more.style.display = "inline";
-            toggleShowArticle()
-        }
-    }
+    //     if (breakPoint.style.display === "none") {
+    //         breakPoint.style.display = "inline";
+    //         more.style.display = "none";
+    //         toggleShowArticle()
+    //     } else {
+    //         breakPoint.style.display = "none";
+    //         more.style.display = "inline";
+    //         toggleShowArticle()
+    //     }
+    // }
 
-    const wstepArtykulu = () => {
-        return (
-            <div className='shortArticle'>
-                <div>
-                    <img className='shortImage' src={logo} alt={"źródło: samemu okroiłem z okładki"} title={"Tak wygląda logo gry"}></img>
-                </div>
-                <div>
-                    <p lang='pl' id='wstep'>Strzelanka na PlayStation, którą pamiętałem z Dema i zawsze chciałem zagrać w jej pełną wersję. Po jej zakupie po 20-tu latach, stwierdziłem że niepotrzebnie tyle zwlekałem, tak jakby...</p>
-                </div>
-                <div id='goToFullArticleButton'>Przejdź do Artykułu</div>
-            </div>
-        )
-    }
-
-    const fullArtykul = () => {
         return (
             <div>
                 <div className='artykul'>
@@ -75,13 +60,7 @@ const LifeForceTenkaPage = () => {
                 </div>
             </div>
         )
-    }
 
-    return (
-        <div>
-            {wstepArtykulu()}
-        </div>
-    )
 }
 
 export default LifeForceTenkaPage

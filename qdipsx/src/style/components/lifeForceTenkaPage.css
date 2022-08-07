@@ -1,40 +1,12 @@
-.shortArticle {
-    display: inline;
-}
-
-.shortImage {
-    width: 200px;
-}
-
-#goToFullArticleButton {
-    background-color: gray;
-    text-align: center;
-    color: white;
-    display: inline-block;
-    padding: 10px 15px 10px 15px;
-    transition: 0.3s;
-    text-decoration: none;
-    cursor: pointer;
-    margin-top: 5%;
-    margin-left: 20%;
-}
-
-#goToFullArticleButton:hover {
-    background-color: black;
-    cursor: pointer;
-}
-
-#goToFullArticleButton:active {
-    background-color: white;
-    color: black;
-    cursor: pointer;
-}
-
 .artykul {
     text-align: justify;
+    column-count: 3;
     column-gap: 30px;
     column-width: 200px;
     font-size: 16px;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .image {

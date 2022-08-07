@@ -7,16 +7,17 @@
     justify-items: end;
     justify-items: center;
     border: 1px solid black;
+    margin-top: 2%;
 }
 
-.logoContainer {
+.logoContainerCB {
     width: 200px;
-    height: 200px;
+    height: 100%;
 }
 
-#logo {
+#logoCB {
     width: 200px;
-    height: 200px;
+    margin-top: 20%;
 }
 
 #wstep {

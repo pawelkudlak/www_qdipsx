@@ -1,6 +1,6 @@
 import React from 'react'
-import GameInforForYouTubeV2 from '../../components/youtube/GameInforForYouTubeV2.component'
 import '../../style/pages/youtube.css'
+import GameInforForYouTubeV2 from '../../components/youtube/GameInforForYouTubeV2.component'
 import HideAndShowButton from '../../components/youtube/hideAndShowButton.component'
 
 const YouTubePS11996 = () => {

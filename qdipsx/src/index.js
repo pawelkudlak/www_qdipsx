@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Provider } from 'react-redux';
+import { store } from './components/kolekcje/store'
+import App from './App';
 import BottomMenuComponent from './components/bottomMenu/bottomMenu.component';
 import FooterMenuComponent from './components/footerMenu/footerMenu.component';
 import YoutubePage from './pages/youtube/youtubePage';
@@ -14,8 +16,8 @@ import YouTubePS11994 from './pages/youtube/youtubePS11994';
 import YouTubePS11996 from './pages/youtube/youtubePS11996';
 import YoutubePS11995 from './pages/youtube/youTubePS11995';
 import Ps1GamesList from './components/kolekcje/ps1GamesList.component';
-import { Provider } from 'react-redux';
-import { store } from './components/kolekcje/store'
+import LifeForceTenkaPage from './pages/artykuly/lifeForceTenkaPage';
+import CrashBandicootPage from './pages/artykuly/crashBandicootPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -31,7 +33,11 @@ root.render(
             <Route path='ps1year1995' element={<YoutubePS11995 />} />
             <Route path='ps1year1996' element={<YouTubePS11996 />} />
           </Route>
-          <Route path='/artykuly' element={<ArtykulyPage />} />
+          <Route path='/artykuly'>
+            <Route index element={<ArtykulyPage />} />
+            <Route path='lifeforcetenka' element={<LifeForceTenkaPage/>} />
+            <Route path='crashbandicoot' element={<CrashBandicootPage/>} />
+          </Route>
           <Route path='/kolekcje'>
             <Route index element={<KolekcjePage />} />
             <Route path='ps1gamesList' element={<Ps1GamesList />}></Route>

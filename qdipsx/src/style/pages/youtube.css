@@ -10,7 +10,10 @@
 #czerwiec,
 #lipiec,
 #sierpien,
-#wrzesien {
+#wrzesien,
+#pazdziernik,
+#listopad,
+#grudzien {
     display: none;
 }
 
@@ -216,6 +219,75 @@
 }
 
 #showHidewrzesien:active {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+#showHidepazdziernik {
+    background-color: gray;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    width: 100%;
+    padding: 10px 15px 10px 15px;
+    transition: 0.3s;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#showHidepazdziernik:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+#showHidepazdziernik:active {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+#showHidelistopad {
+    background-color: gray;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    width: 100%;
+    padding: 10px 15px 10px 15px;
+    transition: 0.3s;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#showHidelistopad:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+#showHidelistopad:active {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+#showHidegrudzien {
+    background-color: gray;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    width: 100%;
+    padding: 10px 15px 10px 15px;
+    transition: 0.3s;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#showHidegrudzien:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+#showHidegrudzien:active {
     background-color: white;
     color: black;
     cursor: pointer;
