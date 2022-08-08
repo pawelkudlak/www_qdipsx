@@ -29,422 +29,107 @@ const Ps1GamesList = () => {
                     }) : null}
                 </div>
 
-                
-
                 <div><h2>A:</h2> 
-                {/* {Ps1GamesAlphabetic("A", ps1Games)} */} 
-                {ps1Games.length > 0
-                    ? ps1Games.map((ps1Game) => {
-                        const { Lp, Tytuł } = ps1Game;
-
-                       if (Tytuł[0] === "A") {
-                        return (
-                            <div key={Lp}>
-                                <div id='letter0_9'>
-                                    <p id='ps1GamePosition'>{Lp}: {Tytuł}</p>
-                                </div>
-                            </div>
-                        )}
-                    }) : null}
+                {Ps1GamesAlphabetic("A", ps1Games)} 
                 </div>
                 <div><h2>B:</h2> 
-                {ps1Games.length > 0
-                    ? ps1Games.map((ps1Game) => {
-                        const { Lp, Tytuł } = ps1Game;
-
-                       if (Tytuł[0] === "B") {
-                        return (
-                            <div key={Lp}>
-                                <div id='letter0_9'>
-                                    <p id='ps1GamePosition'>{Lp}: {Tytuł}</p>
-                                </div>
-                            </div>
-                        )}
-                    }) : null}
+                {Ps1GamesAlphabetic("B", ps1Games)}
                 </div>
 
                 <div><h2>C:</h2> 
-                {ps1Games.length > 0
-                    ? ps1Games.map((ps1Game) => {
-                        const { Lp, Tytuł } = ps1Game;
-
-                       if (Tytuł[0] === "C") {
-                        return (
-                            <div key={Lp}>
-                                <div id='letter0_9'>
-                                    <p id='ps1GamePosition'>{Lp}: {Tytuł}</p>
-                                </div>
-                            </div>
-                        )}
-                    }) : null}
+                {Ps1GamesAlphabetic("C", ps1Games)}
                 </div>
 
                 <div><h2>D:</h2> 
-                {ps1Games.length > 0
-                    ? ps1Games.map((ps1Game) => {
-                        const { Lp, Tytuł } = ps1Game;
-
-                       if (Tytuł[0] === "D") {
-                        return (
-                            <div key={Lp}>
-                                <div id='letter0_9'>
-                                    <p id='ps1GamePosition'>{Lp}: {Tytuł}</p>
-                                </div>
-                            </div>
-                        )}
-                    }) : null}
+                {Ps1GamesAlphabetic("D", ps1Games)}
                 </div>
 
                 <div><h2>E:</h2> 
-                {ps1Games.length > 0
-                    ? ps1Games.map((ps1Game) => {
-                        const { Lp, Tytuł } = ps1Game;
-
-                       if (Tytuł[0] === "E") {
-                        return (
-                            <div key={Lp}>
-                                <div id='letter0_9'>
-                                    <p id='ps1GamePosition'>{Lp}: {Tytuł}</p>
-                                </div>
-                            </div>
-                        )}
-                    }) : null}
+                {Ps1GamesAlphabetic("E", ps1Games)}
                 </div>
 
                 <div><h2>F:</h2> 
-                {ps1Games.length > 0
-                    ? ps1Games.map((ps1Game) => {
-                        const { Lp, Tytuł } = ps1Game;
-
-                       if (Tytuł[0] === "F") {
-                        return (
-                            <div key={Lp}>
-                                <div id='letter0_9'>
-                                    <p id='ps1GamePosition'>{Lp}: {Tytuł}</p>
-                                </div>
-                            </div>
-                        )}
-                    }) : null}
+                {Ps1GamesAlphabetic("F", ps1Games)}
                 </div>
 
                 <div><h2>G:</h2> 
-                {ps1Games.length > 0
-                    ? ps1Games.map((ps1Game) => {
-                        const { Lp, Tytuł } = ps1Game;
-
-                       if (Tytuł[0] === "G") {
-                        return (
-                            <div key={Lp}>
-                                <div id='letter0_9'>
-                                    <p id='ps1GamePosition'>{Lp}: {Tytuł}</p>
-                                </div>
-                            </div>
-                        )}
-                    }) : null}
+                {Ps1GamesAlphabetic("G", ps1Games)}
                 </div>
 
                 <div><h2>H:</h2> 
-                {ps1Games.length > 0
-                    ? ps1Games.map((ps1Game) => {
-                        const { Lp, Tytuł } = ps1Game;
-
-                       if (Tytuł[0] === "H") {
-                        return (
-                            <div key={Lp}>
-                                <div id='letter0_9'>
-                                    <p id='ps1GamePosition'>{Lp}: {Tytuł}</p>
-                                </div>
-                            </div>
-                        )}
-                    }) : null}
+                {Ps1GamesAlphabetic("H", ps1Games)}
                 </div>
 
                 <div><h2>I:</h2> 
-                {ps1Games.length > 0
-                    ? ps1Games.map((ps1Game) => {
-                        const { Lp, Tytuł } = ps1Game;
-
-                       if (Tytuł[0] === "I") {
-                        return (
-                            <div key={Lp}>
-                                <div id='letter0_9'>
-                                    <p id='ps1GamePosition'>{Lp}: {Tytuł}</p>
-                                </div>
-                            </div>
-                        )}
-                    }) : null}
+                {Ps1GamesAlphabetic("I", ps1Games)}
                 </div>
 
                 <div><h2>J:</h2> 
-                {ps1Games.length > 0
-                    ? ps1Games.map((ps1Game) => {
-                        const { Lp, Tytuł } = ps1Game;
-
-                       if (Tytuł[0] === "J") {
-                        return (
-                            <div key={Lp}>
-                                <div id='letter0_9'>
-                                    <p id='ps1GamePosition'>{Lp}: {Tytuł}</p>
-                                </div>
-                            </div>
-                        )}
-                    }) : null}
+                {Ps1GamesAlphabetic("J", ps1Games)}
                 </div>
 
                 <div><h2>K:</h2> 
-                {ps1Games.length > 0
-                    ? ps1Games.map((ps1Game) => {
-                        const { Lp, Tytuł } = ps1Game;
-
-                       if (Tytuł[0] === "K") {
-                        return (
-                            <div key={Lp}>
-                                <div id='letter0_9'>
-                                    <p id='ps1GamePosition'>{Lp}: {Tytuł}</p>
-                                </div>
-                            </div>
-                        )}
-                    }) : null}
+                {Ps1GamesAlphabetic("K", ps1Games)}
                 </div>
 
                 <div><h2>L:</h2> 
-                {ps1Games.length > 0
-                    ? ps1Games.map((ps1Game) => {
-                        const { Lp, Tytuł } = ps1Game;
-
-                       if (Tytuł[0] === "L") {
-                        return (
-                            <div key={Lp}>
-                                <div id='letter0_9'>
-                                    <p id='ps1GamePosition'>{Lp}: {Tytuł}</p>
-                                </div>
-                            </div>
-                        )}
-                    }) : null}
+                {Ps1GamesAlphabetic("L", ps1Games)}
                 </div>
 
                 <div><h2>M:</h2> 
-                {ps1Games.length > 0
-                    ? ps1Games.map((ps1Game) => {
-                        const { Lp, Tytuł } = ps1Game;
-
-                       if (Tytuł[0] === "M") {
-                        return (
-                            <div key={Lp}>
-                                <div id='letter0_9'>
-                                    <p id='ps1GamePosition'>{Lp}: {Tytuł}</p>
-                                </div>
-                            </div>
-                        )}
-                    }) : null}
+                {Ps1GamesAlphabetic("M", ps1Games)}
                 </div>
 
                 <div><h2>N:</h2> 
-                {ps1Games.length > 0
-                    ? ps1Games.map((ps1Game) => {
-                        const { Lp, Tytuł } = ps1Game;
-
-                       if (Tytuł[0] === "N") {
-                        return (
-                            <div key={Lp}>
-                                <div id='letter0_9'>
-                                    <p id='ps1GamePosition'>{Lp}: {Tytuł}</p>
-                                </div>
-                            </div>
-                        )}
-                    }) : null}
+                {Ps1GamesAlphabetic("N", ps1Games)}
                 </div>
 
                 <div><h2>O:</h2> 
-                {ps1Games.length > 0
-                    ? ps1Games.map((ps1Game) => {
-                        const { Lp, Tytuł } = ps1Game;
-
-                       if (Tytuł[0] === "O") {
-                        return (
-                            <div key={Lp}>
-                                <div id='letter0_9'>
-                                    <p id='ps1GamePosition'>{Lp}: {Tytuł}</p>
-                                </div>
-                            </div>
-                        )}
-                    }) : null}
+                {Ps1GamesAlphabetic("O", ps1Games)}
                 </div>
 
                 <div><h2>Q:</h2> 
-                {ps1Games.length > 0
-                    ? ps1Games.map((ps1Game) => {
-                        const { Lp, Tytuł } = ps1Game;
-
-                       if (Tytuł[0] === "Q") {
-                        return (
-                            <div key={Lp}>
-                                <div id='letter0_9'>
-                                    <p id='ps1GamePosition'>{Lp}: {Tytuł}</p>
-                                </div>
-                            </div>
-                        )}
-                    }) : null}
+                {Ps1GamesAlphabetic("Q", ps1Games)}
                 </div>
 
                 <div><h2>P:</h2> 
-                {ps1Games.length > 0
-                    ? ps1Games.map((ps1Game) => {
-                        const { Lp, Tytuł } = ps1Game;
-
-                       if (Tytuł[0] === "P") {
-                        return (
-                            <div key={Lp}>
-                                <div id='letter0_9'>
-                                    <p id='ps1GamePosition'>{Lp}: {Tytuł}</p>
-                                </div>
-                            </div>
-                        )}
-                    }) : null}
+                {Ps1GamesAlphabetic("P", ps1Games)}
                 </div>
 
                 <div><h2>R:</h2> 
-                {ps1Games.length > 0
-                    ? ps1Games.map((ps1Game) => {
-                        const { Lp, Tytuł } = ps1Game;
-
-                       if (Tytuł[0] === "R") {
-                        return (
-                            <div key={Lp}>
-                                <div id='letter0_9'>
-                                    <p id='ps1GamePosition'>{Lp}: {Tytuł}</p>
-                                </div>
-                            </div>
-                        )}
-                    }) : null}
+                {Ps1GamesAlphabetic("R", ps1Games)}
                 </div>
 
                 <div><h2>S:</h2> 
-                {ps1Games.length > 0
-                    ? ps1Games.map((ps1Game) => {
-                        const { Lp, Tytuł } = ps1Game;
-
-                       if (Tytuł[0] === "S") {
-                        return (
-                            <div key={Lp}>
-                                <div id='letter0_9'>
-                                    <p id='ps1GamePosition'>{Lp}: {Tytuł}</p>
-                                </div>
-                            </div>
-                        )}
-                    }) : null}
+                {Ps1GamesAlphabetic("S", ps1Games)}
                 </div>
 
                 <div><h2>T:</h2> 
-                {ps1Games.length > 0
-                    ? ps1Games.map((ps1Game) => {
-                        const { Lp, Tytuł } = ps1Game;
-
-                       if (Tytuł[0] === "T") {
-                        return (
-                            <div key={Lp}>
-                                <div id='letter0_9'>
-                                    <p id='ps1GamePosition'>{Lp}: {Tytuł}</p>
-                                </div>
-                            </div>
-                        )}
-                    }) : null}
+                {Ps1GamesAlphabetic("T", ps1Games)}
                 </div>
 
                 <div><h2>U:</h2> 
-                {ps1Games.length > 0
-                    ? ps1Games.map((ps1Game) => {
-                        const { Lp, Tytuł } = ps1Game;
-
-                       if (Tytuł[0] === "U") {
-                        return (
-                            <div key={Lp}>
-                                <div id='letter0_9'>
-                                    <p id='ps1GamePosition'>{Lp}: {Tytuł}</p>
-                                </div>
-                            </div>
-                        )}
-                    }) : null}
+                {Ps1GamesAlphabetic("U", ps1Games)}
                 </div>
 
                 <div><h2>V:</h2> 
-                {ps1Games.length > 0
-                    ? ps1Games.map((ps1Game) => {
-                        const { Lp, Tytuł } = ps1Game;
-
-                       if (Tytuł[0] === "V") {
-                        return (
-                            <div key={Lp}>
-                                <div id='letter0_9'>
-                                    <p id='ps1GamePosition'>{Lp}: {Tytuł}</p>
-                                </div>
-                            </div>
-                        )}
-                    }) : null}
+                {Ps1GamesAlphabetic("V", ps1Games)}
                 </div>
 
                 <div><h2>W:</h2> 
-                {ps1Games.length > 0
-                    ? ps1Games.map((ps1Game) => {
-                        const { Lp, Tytuł } = ps1Game;
-
-                       if (Tytuł[0] === "W") {
-                        return (
-                            <div key={Lp}>
-                                <div id='letter0_9'>
-                                    <p id='ps1GamePosition'>{Lp}: {Tytuł}</p>
-                                </div>
-                            </div>
-                        )}
-                    }) : null}
+                {Ps1GamesAlphabetic("W", ps1Games)}
                 </div>
 
                 <div><h2>X:</h2> 
-                {ps1Games.length > 0
-                    ? ps1Games.map((ps1Game) => {
-                        const { Lp, Tytuł } = ps1Game;
-
-                       if (Tytuł[0] === "X") {
-                        return (
-                            <div key={Lp}>
-                                <div id='letter0_9'>
-                                    <p id='ps1GamePosition'>{Lp}: {Tytuł}</p>
-                                </div>
-                            </div>
-                        )}
-                    }) : null}
+                {Ps1GamesAlphabetic("X", ps1Games)}
                 </div>
 
                 <div><h2>Y:</h2> 
-                {ps1Games.length > 0
-                    ? ps1Games.map((ps1Game) => {
-                        const { Lp, Tytuł } = ps1Game;
-
-                       if (Tytuł[0] === "Y") {
-                        return (
-                            <div key={Lp}>
-                                <div id='letter0_9'>
-                                    <p id='ps1GamePosition'>{Lp}: {Tytuł}</p>
-                                </div>
-                            </div>
-                        )}
-                    }) : null}
+                {Ps1GamesAlphabetic("Y", ps1Games)}
                 </div>
 
                 <div><h2>Z:</h2> 
-                {ps1Games.length > 0
-                    ? ps1Games.map((ps1Game) => {
-                        const { Lp, Tytuł } = ps1Game;
-
-                       if (Tytuł[0] === "Z") {
-                        return (
-                            <div key={Lp}>
-                                <div id='letter0_9'>
-                                    <p id='ps1GamePosition'>{Lp}: {Tytuł}</p>
-                                </div>
-                            </div>
-                        )}
-                    }) : null}
+                {Ps1GamesAlphabetic("Z", ps1Games)}
                 </div>
 
             </div>
