@@ -21,3 +21,10 @@
     color: black;
     cursor: pointer;
 }
+
+#ps1GamesList {
+    column-count: 3;
+    column-gap: 10px;
+    column-width: 20%;
+    text-align: left;
+}
