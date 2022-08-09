@@ -4,23 +4,34 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import { store } from './components/kolekcje/store'
 import App from './App';
+
 import BottomMenuComponent from './components/bottomMenu/bottomMenu.component';
 import FooterMenuComponent from './components/footerMenu/footerMenu.component';
+
 import YoutubePage from './pages/youtube/youtubePage';
-import ArtykulyPage from './pages/artykuly/artykulyPage';
-import KolekcjePage from './pages/kolekcje/kolekcjePage';
-import OMniePage from './pages/omnie/omniePage';
-import KontaktPage from './pages/kontaktPage/kontaktPage';
-import SocialMediaPage from './pages/socialMediaPage/socialMediaPage';
+
 import YouTubePS11994 from './pages/youtube/youtubePS11994';
 import YouTubePS11996 from './pages/youtube/youtubePS11996';
 import YoutubePS11995 from './pages/youtube/youTubePS11995';
+
+import Top10Page from './pages/youtube/top10Page';
+
+import ArtykulyPage from './pages/artykuly/artykulyPage';
+
+import LifeForceTenkaPage from './pages/artykuly/lifeForceTenkaPage';
+import CrashBandicootPage from './pages/artykuly/crashBandicootPage';
+
+import KolekcjePage from './pages/kolekcje/kolekcjePage';
+
 import Ps1GamesList from './components/kolekcje/ps1GamesList.component';
 import Ps2GamesList from './components/kolekcje/ps2GamesList.component';
 import Ps3GamesList from './components/kolekcje/ps3GamesList.component';
 import Ps4GamesList from './components/kolekcje/ps4GamesList.component';
-import LifeForceTenkaPage from './pages/artykuly/lifeForceTenkaPage';
-import CrashBandicootPage from './pages/artykuly/crashBandicootPage';
+
+import OMniePage from './pages/omnie/omniePage';
+import KontaktPage from './pages/kontaktPage/kontaktPage';
+import SocialMediaPage from './pages/socialMediaPage/socialMediaPage';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -35,6 +46,10 @@ root.render(
             <Route path='ps1year1994' element={<YouTubePS11994 />} />
             <Route path='ps1year1995' element={<YoutubePS11995 />} />
             <Route path='ps1year1996' element={<YouTubePS11996 />} />
+            <Route path='top10' element={<Top10Page />} />
+            <Route path='shoty' element={<YouTubePS11996 />} />
+            <Route path='zgpg' element={<YouTubePS11996 />} />
+            <Route path='pozostale' element={<YouTubePS11996 />} />
           </Route>
           <Route path='/artykuly'>
             <Route index element={<ArtykulyPage />} />

@@ -11,7 +11,11 @@ h3 {
 
 #ps11994YouTubeBox,
 #ps11995YouTubeBox,
-#ps11996YouTubeBox {
+#ps11996YouTubeBox,
+#top10YouTubeBox,
+#shotyYouTubeBox,
+#zgpgYouTubeBox,
+#pozostaleYouTubeBox {
     height: 200px;
     width: 200px;
     text-align: center;
@@ -31,6 +35,22 @@ h3 {
     background-image: url("../../img/youTubePS11996Button.jpg");
 }
 
+#top10YouTubeBox {
+    background-image: url("../../img/top10.jpg");
+}
+
+#shotyYouTubeBox {
+    background-image: url("../../img/shoty.jpg");
+}
+
+#zgpgYouTubeBox {
+    background-image: url("../../img/zgpg.jpg");
+}
+
+#pozostaleYouTubeBox {
+    background-image: url("../../img/pozostale.jpg");
+}
+
 #ps11994YouTubeBox:hover {
     transform: scale(103%);
 }
@@ -40,5 +60,21 @@ h3 {
 }
 
 #ps11996YouTubeBox:hover {
+    transform: scale(103%);
+}
+
+#top10YouTubeBox:hover {
+    transform: scale(103%);
+}
+
+#shotyYouTubeBox:hover {
+    transform: scale(103%);
+}
+
+#zgpgYouTubeBox:hover {
+    transform: scale(103%);
+}
+
+#pozostaleYouTubeBox:hover {
     transform: scale(103%);
 }
