@@ -15,6 +15,9 @@ import YouTubePS11996 from './pages/youtube/youtubePS11996';
 import YoutubePS11995 from './pages/youtube/youTubePS11995';
 
 import Top10Page from './pages/youtube/top10Page';
+import Shoty from './pages/youtube/shoty';
+import Zgpg from './pages/youtube/zgpg';
+import Pozostale from './pages/youtube/pozostale';
 
 import ArtykulyPage from './pages/artykuly/artykulyPage';
 
@@ -47,9 +50,9 @@ root.render(
             <Route path='ps1year1995' element={<YoutubePS11995 />} />
             <Route path='ps1year1996' element={<YouTubePS11996 />} />
             <Route path='top10' element={<Top10Page />} />
-            <Route path='shoty' element={<YouTubePS11996 />} />
-            <Route path='zgpg' element={<YouTubePS11996 />} />
-            <Route path='pozostale' element={<YouTubePS11996 />} />
+            <Route path='shoty' element={<Shoty />} />
+            <Route path='zgpg' element={<Zgpg />} />
+            <Route path='pozostale' element={<Pozostale />} />
           </Route>
           <Route path='/artykuly'>
             <Route index element={<ArtykulyPage />} />

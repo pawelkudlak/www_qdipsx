@@ -1,12 +1,16 @@
 import React from 'react'
+import Top101994img from '../../components/youtube/top101994img'
+import Top101995img from '../../components/youtube/top101995img'
+import Top10Q11995img from '../../components/youtube/top101996Q1img'
 import '../../style/pages/top10.css'
+
 
 const Top10Page = () => {
     return (
         <div className='top10Conteiner'>
-            <div>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/5JaKXBb5c6I" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-            </div>
+            <div className='top10'>{Top101994img()}</div>
+            <div className='top10'>{Top101995img()}</div>
+            <div className='top10'>{Top10Q11995img()}</div>
         </div>
     )
 }

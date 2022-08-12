@@ -1,3 +1,30 @@
 .top10Conteiner {
-    padding-top: 10%;
+    margin-top: 10%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 5%;
+    justify-content: center;
 }
+
+#top10miniatura {
+    max-width: 100%;
+    cursor: pointer;
+}
+
+.imageContainer {
+    width: 300px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 5%;
+  }
+
+  .textContainer {
+    text-align: center;
+    padding: 1px 10px;
+  }
+
+  #top10miniatura:hover {
+    opacity: 0.5;
+    transition: 0.2s;
+  }
