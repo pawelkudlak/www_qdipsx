@@ -15,22 +15,22 @@ const KolekcjeMenuComponent = () => {
         <div className='PS2GameCollectionButton' onClick={() => navigate(`/kolekcje/ps2gameslist`)}></div>
         <div className='PS3GameCollectionButton' onClick={() => navigate(`/kolekcje/ps3gameslist`)}></div>
         <div className='PS4GameCollectionButton' onClick={() => navigate(`/kolekcje/ps4gameslist`)}></div>
-        <div className='PSPGameCollectionButton'></div>
+        <div className='PSPGameCollectionButton' onClick={() => navigate(`/kolekcje/pspgameslist`)}></div>
       </div>
       <hr></hr>
       <div className='sonyContainer'>
-        <div className='XBCGameCollectionButton'></div>
-        <div className='X360GameCollectionButton'></div>
-        <div className='XOneGameCollectionButton'></div>
-        <div className='XSSGameCollectionButton'></div>
+        <div className='XBCGameCollectionButton' onClick={() => navigate(`/kolekcje/xboxgameslist`)}></div>
+        <div className='X360GameCollectionButton' onClick={() => navigate(`/kolekcje/xbox360gameslist`)}></div>
+        <div className='XOneGameCollectionButton' onClick={() => navigate(`/kolekcje/xboxonegameslist`)}></div>
+        {/* <div className='XSSGameCollectionButton'></div> */}
       </div>
       <hr></hr>
       <div className='sonyContainer'>
-        <div className='GBAGameCollectionButton'></div>
-        <div className='SNESGameCollectionButton'></div>
-        <div className='DSGameCollectionButton'></div>
-        <div className='GCGameCollectionButton'></div>
-        <div className='WiiGameCollectionButton'></div>
+        <div className='GBAGameCollectionButton' onClick={() => navigate(`/kolekcje/gbagameslist`)}></div>
+        {/* <div className='SNESGameCollectionButton'></div> */}
+        <div className='DSGameCollectionButton' onClick={() => navigate(`/kolekcje/dsgameslist`)}></div>
+        <div className='GCGameCollectionButton' onClick={() => navigate(`/kolekcje/gcgameslist`)}></div>
+        <div className='WiiGameCollectionButton' onClick={() => navigate(`/kolekcje/wiigameslist`)}></div>
       </div>
       <hr></hr>
       <div className='sonyContainer'>

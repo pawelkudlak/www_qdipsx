@@ -30,10 +30,19 @@ import Ps1GamesList from './components/kolekcje/ps1GamesList.component';
 import Ps2GamesList from './components/kolekcje/ps2GamesList.component';
 import Ps3GamesList from './components/kolekcje/ps3GamesList.component';
 import Ps4GamesList from './components/kolekcje/ps4GamesList.component';
+import PspGamesList from './components/kolekcje/pspGamesList.component';
+import XBoxPage from './pages/kolekcje/xBoxPage';
+import XBox360Page from './pages/kolekcje/xBox360Page';
+import XBoxOnePage from './pages/kolekcje/xBoxonePage';
+import GBAPage from './pages/kolekcje/gbaPage';
+import DSPage from './pages/kolekcje/dsPage';
+import GCPage from './pages/kolekcje/gcPage';
+import WiiPage from './pages/kolekcje/wiiPage';
 
 import OMniePage from './pages/omnie/omniePage';
 import KontaktPage from './pages/kontaktPage/kontaktPage';
 import SocialMediaPage from './pages/socialMediaPage/socialMediaPage';
+// import GamesSlice from './components/kolekcje/gamesSlice';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -65,6 +74,16 @@ root.render(
             <Route path='ps2gameslist' element={<Ps2GamesList />}></Route>
             <Route path='ps3gameslist' element={<Ps3GamesList />}></Route>
             <Route path='ps4gameslist' element={<Ps4GamesList />}></Route>
+            <Route path='pspgameslist' element={<PspGamesList />}></Route>
+
+            <Route path='xboxgameslist' element={<XBoxPage />}></Route>
+            <Route path='xbox360gameslist' element={<XBox360Page />}></Route>
+            <Route path='xboxonegameslist' element={<XBoxOnePage />}></Route>
+
+            <Route path='gbagameslist' element={<GBAPage />}></Route>
+            <Route path='dsgameslist' element={<DSPage />}></Route>
+            <Route path='gcgameslist' element={<GCPage />}></Route>
+            <Route path='wiigameslist' element={<WiiPage />}></Route>
           </Route>
           <Route path='/omnie' element={<OMniePage />} />
           <Route path='/kontakt' element={<KontaktPage />} />

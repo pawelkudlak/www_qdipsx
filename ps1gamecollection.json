@@ -4234,5 +4234,131 @@
         "Lp": "66",
         "Tytuł": "Wiedźmin 3: Dziki Gon"
     }
-]
+],
+  "PSP": [
+      {
+          "Lp": "1",
+          "Tytuł": "Ape Escape"
+      },
+      {
+          "Lp": "2",
+          "Tytuł": "Avatar: Gra komuterowa"
+      },
+      {
+          "Lp": "3",
+          "Tytuł": "Brothers In Arms: D-Day"
+      },
+      {
+          "Lp": "4",
+          "Tytuł": "Driver 76"
+      },
+      {
+          "Lp": "5",
+          "Tytuł": "F1 Grand Prix"
+      },
+      {
+          "Lp": "6",
+          "Tytuł": "FIFA 10"
+      },
+      {
+          "Lp": "7",
+          "Tytuł": "Final Fantasy VII: Crisis Core"
+      },
+      {
+          "Lp": "8",
+          "Tytuł": "Football Manager Handheld 2007"
+      },
+      {
+          "Lp": "9",
+          "Tytuł": "Football Manager Handheld 2008"
+      },
+      {
+          "Lp": "10",
+          "Tytuł": "God of War: Chains of Olympus"
+      },
+      {
+          "Lp": "11",
+          "Tytuł": "God of War: Duch Sparty"
+      },
+      {
+          "Lp": "12",
+          "Tytuł": "Indiana Jones: Staff of Kings"
+      },
+      {
+          "Lp": "13",
+          "Tytuł": "Killzone: Liberation"
+      },
+      {
+          "Lp": "14",
+          "Tytuł": "Lord of the Rings: Tactics"
+      },
+      {
+          "Lp": "15",
+          "Tytuł": "Medal of Honor: Heroes"
+      },
+      {
+          "Lp": "16",
+          "Tytuł": "Metal Gear Solid: Peace Walker"
+      },
+      {
+          "Lp": "17",
+          "Tytuł": "Metal Gear Solid: Portable Ops"
+      },
+      {
+          "Lp": "18",
+          "Tytuł": "Monster Hunter: Freedom Unite"
+      },
+      {
+          "Lp": "19",
+          "Tytuł": "MotoGP"
+      },
+      {
+          "Lp": "20",
+          "Tytuł": "Need for Speed: Carbon Own The City"
+      },
+      {
+          "Lp": "21",
+          "Tytuł": "Need for Speed: Most Wanted 5-1-0"
+      },
+      {
+          "Lp": "22",
+          "Tytuł": "Need for Speed: Undercover"
+      },
+      {
+          "Lp": "23",
+          "Tytuł": "Ratchet and Clunk: Size Matters"
+      },
+      {
+          "Lp": "24",
+          "Tytuł": "Ridge Racer"
+      },
+      {
+          "Lp": "25",
+          "Tytuł": "Ridge Racer 2"
+      },
+      {
+          "Lp": "26",
+          "Tytuł": "SEGA Rally"
+      },
+      {
+          "Lp": "27",
+          "Tytuł": "Souls Calibur Broken Destiny"
+      },
+      {
+          "Lp": "28",
+          "Tytuł": "Star Wars The Force Unleashed"
+      },
+      {
+          "Lp": "29",
+          "Tytuł": "SWAT: Target Liberty"
+      },
+      {
+          "Lp": "30",
+          "Tytuł": "Tekken: Dark Resurrection"
+      },
+      {
+          "Lp": "31",
+          "Tytuł": "World Tour Soccer: Challenge Edition"
+      }
+  ]
 }

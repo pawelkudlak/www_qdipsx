@@ -5,7 +5,7 @@ function App() {
     <div className='app'>
       <h1>Witaj na mojej stronie, która jest cały czas w budowie!</h1>
       <h2>Strona główna - nowości itd.</h2>
-      <h2>YouTube - moje filmy i <del>recenzje z YT</del></h2>
+      <h2><del>YouTube - moje filmy i recenzje z YT</del></h2>
       <h2><del>Artykuły - moje pisemne recenzji itd.</del></h2>
       <h2>Kolekcje: </h2>
       <h3>- konsole</h3>
