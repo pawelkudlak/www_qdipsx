@@ -1,18 +1,16 @@
 import React from 'react'
-import { useSelector, useDispatch } from "react-redux"
-import { fetchGames } from './gamesSlice';
+import { useSelector } from "react-redux"
 import '../../style/components/ps1GamesList.css'
 import Ps1GamesAlphabetic from './ps1GamesAlphabetic.component';
 
-const gamesList = () => {
+const GamesList = (konsola) => {
     const { isLoading } = useSelector((state) => state.games);
     const { games } = useSelector((state) => state.games);
-    const dispatch = useDispatch();
+
     return (
         <div>
-            <button id='buttonDoPobieraniaListyGier' onClick={() => dispatch(fetchGames())}>Pobierz Listę</button>
             <div id="ps1GamesList">
-                {isLoading ? <h2>Pobieranie listy gier...</h2> : null}
+                {isLoading ? <h2>Pobieranie listy gier...</h2> : null }
                 <div><h2>0-9:</h2> 
                 {games.length > 0
                     ? games.map((game) => {
@@ -131,10 +129,9 @@ const gamesList = () => {
                 <div><h2>Z:</h2> 
                 {Ps1GamesAlphabetic("Z", games)}
                 </div>
-
             </div>
         </div>
     )
 }
 
-export default gamesList
+export default GamesList

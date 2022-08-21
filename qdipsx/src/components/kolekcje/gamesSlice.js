@@ -6,8 +6,8 @@ const initialState = {
     error: undefined
 }
 
-export const fetchGames = createAsyncThunk("games/fetchGames", () => {
-    return fetch("http://localhost:3000/")
+export const fetchGames = createAsyncThunk("games/fetchGames", (konsola) => {
+    return fetch(`http://localhost:3000/${konsola}`)
         .then(response => response.json())
         .then((data) => data)
         .catch((error) => error);

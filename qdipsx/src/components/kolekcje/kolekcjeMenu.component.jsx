@@ -1,8 +1,12 @@
 import React from 'react'
+import { useDispatch } from 'react-redux';
 import { useNavigate } from 'react-router-dom'
 import "../../style/components/kolekcjeMenu.css"
+import { fetchGames } from './gamesSlice';
 
 const KolekcjeMenuComponent = () => {
+
+  const dispatch = useDispatch();
 
   const navigate = useNavigate();
 
@@ -11,11 +15,26 @@ const KolekcjeMenuComponent = () => {
       <h1>Gry</h1>
       <hr></hr>
       <div className='sonyContainer'>
-        <div className='PS1GameCollectionButton' onClick={() => navigate(`/kolekcje/ps1gameslist`)}></div>
-        <div className='PS2GameCollectionButton' onClick={() => navigate(`/kolekcje/ps2gameslist`)}></div>
-        <div className='PS3GameCollectionButton' onClick={() => navigate(`/kolekcje/ps3gameslist`)}></div>
-        <div className='PS4GameCollectionButton' onClick={() => navigate(`/kolekcje/ps4gameslist`)}></div>
-        <div className='PSPGameCollectionButton' onClick={() => navigate(`/kolekcje/pspgameslist`)}></div>
+        <div className='PS1GameCollectionButton' onClick={() => {
+          dispatch(fetchGames('PS1'))
+          navigate(`/kolekcje/ps1gameslist`)
+        }}></div>
+        <div className='PS2GameCollectionButton' onClick={() => {
+          dispatch(fetchGames('PS2'))
+          navigate(`/kolekcje/ps2gameslist`)
+        }}></div>
+        <div className='PS3GameCollectionButton' onClick={() => {
+          dispatch(fetchGames('PS3'))
+          navigate(`/kolekcje/ps3gameslist`)
+        }}></div>
+        <div className='PS4GameCollectionButton' onClick={() => {
+          dispatch(fetchGames('PS4'))
+          navigate(`/kolekcje/ps4gameslist`)
+          }}></div>
+        <div className='PSPGameCollectionButton' onClick={() => {
+          dispatch(fetchGames('PSP'))
+          navigate(`/kolekcje/pspgameslist`)
+          }}></div>
       </div>
       <hr></hr>
       <div className='sonyContainer'>
@@ -34,7 +53,10 @@ const KolekcjeMenuComponent = () => {
       </div>
       <hr></hr>
       <div className='sonyContainer'>
-        <div className='PCGameCollectionButton'></div>
+        <div className='PCGameCollectionButton' onClick={() => {
+          dispatch(fetchGames('PC'))
+          navigate(`/kolekcje/pcgameslist`)
+          }}></div>
       </div>
       <h1>Czasopisma Growe</h1>
       <div className='gazetyContainer'>
