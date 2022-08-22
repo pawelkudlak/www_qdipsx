@@ -37,9 +37,9 @@ const KontaktForm = () => {
                         <input type={"email"} placeholder={"Podaj email"} name={"email"} required />
                     </div>
                     <div>
-                        <textarea placeholder="Tutaj wpisz swoją wiadomość" name={"wiadomosc"} required />
+                        <textarea id='oknowiadomosci' placeholder="Tutaj wpisz swoją wiadomość" name={"wiadomosc"} required />
                     </div>
-                    <button type='submit'>Wyślij wiadomość</button>
+                    <button className='bottomMenuButton' type='submit'>Wyślij wiadomość</button>
                 </div>
             </form>
         </div>

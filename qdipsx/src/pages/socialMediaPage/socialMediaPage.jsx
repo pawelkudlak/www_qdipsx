@@ -1,27 +1,31 @@
 import React from 'react'
-import { TwitterTimelineEmbed, TwitterFollowButton } from 'react-twitter-embed';
-import FaceBookQdiPage from '../../components/socialMedia/facebook.component';
+import { FacebookEmbed, InstagramEmbed, TwitterEmbed } from 'react-social-media-embed';
+import "../../style/pages/socialmedia.css"
 
 
 const SocialMediaPage = () => {
   return (
-    <div>
+    <div id='SocialMediaContainer'>
+      
       <div>
-        {/* <FaceBookQdiPage /> */}
-      </div>
-      <div>
-        <TwitterFollowButton
-          screenName={'qdi_psx'}
+        <InstagramEmbed
+          url="https://www.instagram.com/p/CgoKIodocbj/"
+          width={500}
         />
       </div>
-      <div>
-        <TwitterTimelineEmbed
-          sourceType="qdi_psx"
-          screenName="qdi_psx"
-          options={{ height: 400, width: 400 }}
-        />
 
+      <div>
+        <FacebookEmbed url="https://www.facebook.com/qdipsx/posts/pfbid034vGP6y6cm2PLXjqsX7d6f9cQf8br1f6Np78oDy8gMxMLpx2kKRtdrU9pG48VwvUCl" width={500} />
       </div>
+
+      <div>
+        <TwitterEmbed
+          url="https://twitter.com/qdi_psx/status/1558682565858545665"
+          width={500}
+        />
+      </div>
+
+
     </div>
   )
 }

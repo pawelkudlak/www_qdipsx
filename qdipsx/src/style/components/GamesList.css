@@ -22,14 +22,22 @@
     cursor: pointer;
 }
 
-#ps1GamesList {
-    padding-top: 6%;
+#GamesList {
     column-count: 3;
     column-gap: 10px;
     column-width: 20%;
     text-align: left;
+    margin-top: 6%;
 }
 
-#xboxGamesList {
-    margin-top: 10%;
+#NoneAPIGamesList {
+    column-count: 1;
+    column-gap: 10px;
+    column-width: 20%;
+    text-align: left;
+    margin-top: 6%;
+}
+
+#GameListParagraph {
+    margin: 0%;
 }

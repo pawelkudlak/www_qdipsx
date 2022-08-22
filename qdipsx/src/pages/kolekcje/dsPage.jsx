@@ -1,20 +1,20 @@
 import React from 'react'
-import '../../style/components/ps1GamesList.css'
+import '../../style/components/GamesList.css'
 
 const DSPage = () => {
   return (
-    <div id="xboxGamesList">
-      <h2 id='ps1GamePosition'>B:</h2>
-      <p id='ps1GamePosition'>Ben10: Galactic Racing</p>
+    <div id='GamesList'>
+      <h2>B:</h2>
+      <p id='GameListParagraph'>Ben10: Galactic Racing</p>
 
-      <h2 id='ps1GamePosition'>C:</h2>
-      <p id='ps1GamePosition'>Crash of the Titans</p>
+      <h2>C:</h2>
+      <p id='GameListParagraph'>Crash of the Titans</p>
 
-      <h2 id='ps1GamePosition'>L:</h2>
-      <p id='ps1GamePosition'>LEGO: Batman the Videogame</p>
+      <h2>L:</h2>
+      <p id='GameListParagraph'>LEGO: Batman the Videogame</p>
 
-      <h2 id='ps1GamePosition'>N:</h2>
-      <p id='ps1GamePosition'>Need for Speed: Most Wanted</p>
+      <h2>N:</h2>
+      <p id='GameListParagraph'>Need for Speed: Most Wanted</p>
     </div>
   )
 }

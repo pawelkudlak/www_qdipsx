@@ -1,6 +1,7 @@
 import React from 'react'
+import '../../style/components/GamesList.css'
 
-const Ps1GamesAlphabetic = (litera, array) => {
+const GamesAlphabetic = (litera, array) => {
 
     const filteredPS1Games = array.filter((ps1Game) => {
         const { Lp, Tytuł } = ps1Game;
@@ -20,8 +21,8 @@ const Ps1GamesAlphabetic = (litera, array) => {
                 const { Lp, Tytuł } = ps1Game;
                 return (
                     <div key={Lp}>
-                        <div id='letter'>
-                            <p id='ps1GamePosition'>{Lp}: {Tytuł}</p>
+                        <div>
+                            <p id='GameListParagraph'>{Lp}: {Tytuł}</p>
                         </div>
                     </div>
                 )
@@ -30,4 +31,4 @@ const Ps1GamesAlphabetic = (litera, array) => {
     )
 }
 
-export default Ps1GamesAlphabetic
+export default GamesAlphabetic

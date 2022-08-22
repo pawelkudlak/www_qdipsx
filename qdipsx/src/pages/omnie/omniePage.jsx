@@ -30,34 +30,65 @@ const OMniePage = () => {
       <p>Umiejętności: </p>
 
       <p>Akrobatyka: </p>
+      <p>Historycznie to miałem akrobatykę na bardzo wysokim poziomie. Lata podstawówka - średnia szkoła, gdzie brałem udział w licznych zawodach sportowych. Moje najlepsze dziedziny sportu to skoki w dal i w zwyż, pchnięcie kulą lub rzut piłką palantową</p>
       <p>Atletyka: </p>
+      <p>Przez kilka miesięcy systematycznie chodziłem na siłownię, do momentu uszkodzenia ścięgna w stopie. Dzisiaj nie mam zwyczajnie czasu na poświęcanie się budowie masy mięśniowej ciała.</p>
       <p>Historia: </p>
+      <p>Niestety był to mój najbardziej znienawidzony przedmiot w szkole, za sprawą bardzo niedobrej nauczycielki, która niestety uwzięła się na mnie - ale to nie o tym tutaj. To czym się zacząłem interesować jeżeli chodzi o historię, to Mitologia Nordycka, aktualnie poznaje ten panteon poprzez książki jej poświęconej.</p>
       <p>Intuicja: </p>
+      <p>Posiadam czasem dziwne przeczucie że coś się może zdażyć i czasem się to sprawdza. Dotyczy to gier jak i życia codziennego. Niestety jeszcze nie wygrałem w totka.</p>
       <p>Medycyna: </p>
+      <p>Umiem przykleić plaster na ranę i wziąć tabletkę przeciwbólową</p>
       <p>Opieka nad zwierzętami: </p>
+      <p>Niech wypowie się o tym mój kot Abaddon</p>
       <p>Oszustwo: </p>
+      <p>Nielubię i nie stosuję... chyba że chodzi o granie ;)</p>
       <p>Percepcja: </p>
+      <p>Bardzo wysoka, w szczególności na łonie natury.</p>
       <p>Perswazja: </p>
+      <p>Raczej znikoma, mam najczęściej swoje zdanie, ale żeby kogoś do niej przekonać, to już gorzej.</p>
       <p>Przyroda: </p>
+      <p>Oj uwielbiam! Gdybym mógł, spędzałbym czas wolny w lesie lub na łonie natury.</p>
       <p>Religia: </p>
+      <p>Nope.</p>
       <p>Skradanie się: </p>
+      <p>Z moją wagą i zwinnością, to raczej nie zostanę skrytobójcą</p>
       <p>Sztuka przetrwania: </p>
+      <p>Kiedyś chciałem uprawiać, ale na chęciach i oglądaniem filmów na YouTube się skończyło.</p>
       <p>Śledztwo: </p>
+      <p>Nigdy takowego nie prowadziłem, ale jeżeli chodzi o łączenie "krope" to myślę że mi dobrze to wychodzi.</p>
       <p>Wiedza tajemna: </p>
+      <p>To tajemnica...</p>
       <p>Występy: </p>
+      <p>Przed kamerą, w trakcie streamów, to czuję się jak ryba w wodzie. Co innego jeżeli chodzi o występowanie przed większą publicznością, aczkolwiek do średniej szkoły często brałem udział w przedstawieniach lub imprezach na scenie.</p>
       <p>Zastraszanie: </p>
+      <p>Moja najmocniejsza zniewaga to: "Chyba TY!"</p>
       <p>Zwinne dłonie: </p>
+      <p>Narzeczona nie narzeka ;)</p>
 
       <p>Klasa Pancerza: </p>
+      <p>"I don't give a damn"</p>
       <p>Inicjatywa: </p>
+      <p>Zazwyczaj pierwszy wychodzę z jakąś, ale też daję innym się wykazać.</p>
       <p>Szybkość: </p>
+      <p>W spaniu - Ekspresowa, W biegu - Umiarkowana</p>
 
       <p>Cechy Osobowości: </p>
-      <p>Ideały: </p>
+      <ul>Ideały: </ul>
+      <li>(Muzyka) Iron Maiden - Fear of the Dark</li>
+      <li>(Muzyka) Pink Floyd - Comfortably Numb</li>
+      <li>(Pisarz) Brian Lumley</li>
+      <li>(Gra) Tomb Raider 2</li>
+      <li>(Gra) God of War 2</li>
+      <li>(Gra) Bloodborne</li>
+      <li>(Twórca Gier) Hideo Kojima</li>
       <p>Więzi: </p>
+      <p>Rodzina, gry, motocykl i podróże</p>
       <p>Słabości: </p>
+      <p>Rodzina, gry, motocykl i podróże</p>
 
       <p>Pozostałe biegłości i języki</p>
+      <p></p>
 
       <p>Wyposażenia: </p>
 

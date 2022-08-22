@@ -58,19 +58,24 @@
 }
 
 .PS1GameCollectionButton:hover  {
-    transform: scale(1.1)
+    transform: scale(1.1);
+    cursor: pointer;
 }
 .PS2GameCollectionButton:hover  {
-    transform: scale(1.1)
+    transform: scale(1.1);
+    cursor: pointer;
 }
 .PS3GameCollectionButton:hover {
-    transform: scale(1.1)
+    transform: scale(1.1);
+    cursor: pointer;
 }
 .PS4GameCollectionButton:hover {
-    transform: scale(1.1)
+    transform: scale(1.1);
+    cursor: pointer;
 }
 .PSPGameCollectionButton:hover {
-    transform: scale(1.1)
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .XBCGameCollectionButton {
@@ -110,16 +115,20 @@
 }
 
 .XBCGameCollectionButton:hover  {
-    transform: scale(1.1)
+    transform: scale(1.1);
+    cursor: pointer;
 }
 .X360GameCollectionButton:hover  {
-    transform: scale(1.1)
+    transform: scale(1.1);
+    cursor: pointer;
 }
 .XOneGameCollectionButton:hover {
-    transform: scale(1.1)
+    transform: scale(1.1);
+    cursor: pointer;
 }
 .XSSGameCollectionButton:hover {
-    transform: scale(1.1)
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .GBAGameCollectionButton {
@@ -168,19 +177,24 @@
 }
 
 .GCGameCollectionButton:hover  {
-    transform: scale(1.1)
+    transform: scale(1.1);
+    cursor: pointer;
 }
 .GBAGameCollectionButton:hover  {
-    transform: scale(1.1)
+    transform: scale(1.1);
+    cursor: pointer;
 }
 .SNESGameCollectionButton:hover  {
-    transform: scale(1.1)
+    transform: scale(1.1);
+    cursor: pointer;
 }
 .DSGameCollectionButton:hover {
-    transform: scale(1.1)
+    transform: scale(1.1);
+    cursor: pointer;
 }
 .WiiGameCollectionButton:hover {
-    transform: scale(1.1)
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .PCGameCollectionButton {
@@ -193,7 +207,8 @@
 }
 
 .PCGameCollectionButton:hover  {
-    transform: scale(1.1)
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .gazetyContainer {
@@ -231,25 +246,14 @@
 }
 
 .CDAGazetaCollectionButton:hover  {
-    transform: scale(1.1)
+    transform: scale(1.1);
+    cursor: pointer;
 }
 .PSXEGazetaCollectionButton:hover  {
-    transform: scale(1.1)
+    transform: scale(1.1);
+    cursor: pointer;
 }
 .NeoPlusGazetaCollectionButton:hover  {
-    transform: scale(1.1)
-}
-
-#ps1GamePosition {
-    margin-top: 0%;
-    margin-bottom: 0%;
-    margin-left: 30%;
-}
-
-#buttonDoPobieraniaListyGier {
-    margin-top: 50px;
-}
-
-#ps1GamesList {
-    margin-top: 25px;
+    transform: scale(1.1);
+    cursor: pointer;
 }
