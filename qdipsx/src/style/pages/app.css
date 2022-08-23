@@ -1,9 +1,26 @@
 .app {
-    margin-top: 100px;
+    margin-top: 6%;
+    background-color: white;
     width: 70%;
-    padding-left: 15%;
+    margin-left: 15%;
+    box-shadow: 5px 5px 10px #cfcfcf;
 }
 
 body {
     background-color: rgb(224, 224, 224);
+    background-image: url("../../img/background.png");
+    background-repeat: repeat;
+    background-size: 10%;
+}
+
+#mainBanner {
+    scale: 0.98;
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+#banner {
+    margin-left: auto;
+    margin-right: auto;
 }

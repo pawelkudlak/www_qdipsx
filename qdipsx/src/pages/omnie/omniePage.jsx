@@ -4,7 +4,18 @@ import '../../style/pages/omnie.css'
 const OMniePage = () => {
   return (
     <div className='omnieContainer'>
-      <div>
+
+      <p>Cześć, jestem Paweł, mam 36 lat (save z 2022 roku) i mieszkam w małej miejscowości koło Trójmiasta. Jestem graczem od małej kości i w tym roku próbuję być programistą front-end'owym. Dużo słucham muzyki i oglądam filmów, oraz tworzyłem różne materiały na YT wraz ze streamowaniem na Twitchu.</p>
+      <p>Jak wspomniałem, mam na imię Paweł, ale w internecie możecie mnie znaleźć po ksywie: Qdi / QdiPSX. Mieszkam w Borkowie koło Gdańska, gdzie mam swoje cztery kąty. Jestem dumnym ojcem rocznego chłopca, który bardzo aktywnie próbuje spędzać ze mną czas, gdy tylko jestem w domu. Od roku pracuję jako kurier DHL, a ostatnio ukończyłem szkolenie na programistę Front-end'owego w szkole SDA. Aktualnie czekam na oferty pracy, które pomogą mi wrócić do normalnego trybu życia.</p>
+      <p>Z uwagi na pracę, mam bardzo mało czasu dla siebie i rodziny. Zazwyczaj pracuję od godziny 4-tej (wstaję godzinę wcześniej, żeby się ogarnąć, zjeść śniadanie i dojechać do miejsca pracy) do ~14 (+-1h), a jak chcę trochę dorobić to i przyjdzie mi pracować do godziny 18-tej. Czy to źle? Po części tak, ale powiem Wam że z uwagi że to praca fizyczna to wróciłem do formy fizycznej z przed kilkunastu lat, straciłem przez rok ~20kg (bez diet i siłowni).</p>
+      <p>Gdy uda mi się w dniu znaleźć godzinę lub dwie wolnego (od rodzinki ;)), to poświęcam je moim zainteresowaniom. Jest ich bardzo dużo, ale przez ostatnie kilka miesięcy to tylko mogę sobie pozwolić na dalszą naukę i praktykę programowania - której owoc właśnie widzicie w postaci tej strony. Innym zajęciem są seriale, a dokładnie rzecz ujmując to oglądam The X-Files, jestem aktualnie na 4-tym sezonie. Gdy mam resztki sił, to włączam jedną z moich konsol i zaczynam grać w jakieś tytuły. Przy większości tych zajęć towarzyszy mi oczywiście muzyka.</p>
+      <p>Nauka programowania nie była dla mnie czarną magią, gdyż wcześniej w średniej szkole i na studiach uczyłem się języków takich jak: Turbo Pascal, C, C++ i Java, kwestią było tylko przypomnienie sobie o co tam chodziło i jakoś podstawy wydały mi się banalnie proste.Na szkoleniu poznałem język JavaScript, oraz HTML, CSS, Firebase, TypeScript, React, Redux oraz testowanie. Jako pierwszy produkt mojej nauki, wybrałem stronę o sobie, mojej działalności w internecie i moim hobby. Duża większość jej zawartości jest wykonana przeeze mnie od zera (tylko dział Social Mediów jest z gotowej biblioteki). W przyszłości planuję opracować więcej aplikacji, ale to w swoim czasie.</p>
+      <p>Dużej części mojego życia, towarzyszyły mi gry wideo. Pierwszą styczności z nimi miałem jako mały kilkuletni Qdi, który zachwycony był demami wyświetlanymi na sklepowych półkach (Quake oraz Blood), potem styczność z Duke Nukem 3D u kolegi. Pierwszy sprzęt do grania rodzice kupili mi dość późno (na rynku królowały wtedy Pegazusy), a była to konsola Rambo z kartriżem z 8-mioma grami. Dopiero gdzieś około roku 2001 dostałem od rodziców PlayStation 1 w zestawie z dwiema płytami Demo One (red i purple) i pełną wersją Porsche Challange. Od tamtego momentu byłem wielkim zwolennikiem spędzenia czasu przed ekranem telewizora i później monitora. To zamiłowaniem zostało mi do dzisiaj, a od około 10-ciu lat stałem się kolekcjonerem gier. Mam w swojej kolekcji ponad 500 gier na PlayStation 1 i jeszcze setki na pozostałe konsole.</p>
+      <p>Moja miłość do gier, była inspiracją do utworzenia kanału na YouTube, gdzie zacząłem recenzować je po kolei jak wychodziły w Europie (chodzi o PS1). Z czasem również poświęciłem się streamingowi na Twitchu, gdzie godzinami umilałem sobie jak i widzom wolne wieczory i weekendy. Powodem przerwania działalności było założenie rodziny i zmiana chwilowa priorytetów, ale za jakiś czas zapewne wrócę do aktywności w internecie.</p>
+      <p>Zostało mi jeszcze z przyjemności, oglądanie seriali, filmów, słuchanie muzyki i czytanie książek i czasopism. Jak wspomniałem parę paragrafów wcześniej, wciągnąłem się w serial z moich lat młodzieńczych, czyli: Z Archiwum X, który uruchamiam jak chcę się odmóżdżyć, a nie mam sił na granie. Gdy opiekuję się synem, dobrym umilaczem czasu jest czytanie, a czytam aktualnie kolekcję na temat Mitologii Nordyckiej. Czasopisma growe zazwyczaj umilają mi czas w kolece do fryzjera, w trakcie pobytu u rodziny lub jak kompletnie nie wiem co ze sobą zrobić.</p>
+      <p>To na chwilę obecną tyle, później może uzupełnię o więcej informacji.</p>
+
+      {/* <div>
         <p>Nazwa Postaci: Paweł</p>
         <p>Ksywa: Qdi</p>
         <ul>Klasa i Poziom:
@@ -85,14 +96,14 @@ const OMniePage = () => {
       <p>Więzi: </p>
       <p>Rodzina, gry, motocykl i podróże</p>
       <p>Słabości: </p>
-      <p>Rodzina, gry, motocykl i podróże</p>
+      <p>Rodzina, gry, motocykl i podróże ;)</p>
 
       <p>Pozostałe biegłości i języki</p>
       <p></p>
 
       <p>Wyposażenia: </p>
 
-      <p>Korzyści i zdolności</p>
+      <p>Korzyści i zdolności</p> */}
 
       {/* <h2>Coś o sobie:</h2>
       <p>Cześć, nazywam się Paweł i mieszkam w małym mieście Borkowie na Pomorzu. W tym roku (2022) skończyłem 36 lat. Część z Was zapewne kojarzy mnie z mojego kanału na YouTube lub streamów na Twitch. Jestem na ogół bardzo spokojnym człowiekiem, wręcz nieśmiałym na początku. Muszę się przyzwyczaić do nowych ludzi, żeby móc normalnie funkcjonować. Jak jestem wśród „swoich” bawię się najlepiej i czasem nawet rozkręcam imprezę. Czasami bywam egoistą, ale to z powodu mieszkania samemu przez kilka lat. Jestem też leniem, co można czasami zaobserwować przy częstotliwości ukazujących się filmów. Patrzę na świat i całe jego otoczenie okiem realisty, przez co wszelakie bóstwa są mi obojętne i nie utożsamiam się z żadnym z nich. Wszelkie spory staram się rozwiązywać i nie cierpię niedopowiedzeń i obrażania się.</p>

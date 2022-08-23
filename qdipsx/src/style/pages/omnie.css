@@ -1,4 +1,10 @@
 .omnieContainer {
     text-align: justify;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 5%;
+    columns: 3;
+    column-gap: 5%;
+    text-indent: 15%;
 }
