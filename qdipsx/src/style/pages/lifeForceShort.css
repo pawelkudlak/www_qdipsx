@@ -1,14 +1,3 @@
-.shortArticle {
-    display: grid;
-    grid-template-columns: auto auto;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    justify-items: end;
-    justify-items: center;
-    border: 1px solid black;
-}
-
 .logoContainer {
     width: 200px;
     height: 200px;

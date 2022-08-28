@@ -1,7 +1,14 @@
 import './style/pages/app.css'
+import { useNavigate } from 'react-router-dom'
 import banner from "./img/banner.png"
+import first from "./img/first.png"
+import second from "./img/second.png"
+import third from "./img/third.png"
 
 function App() {
+
+  const navigate = useNavigate();
+
   return (
     <div className='app'>
       <div>
@@ -9,8 +16,23 @@ function App() {
           <img src={banner} id='mainBanner'></img>
         </div>
         <div>
-          <h1>Witaj na mojej stronie!</h1>
-          <h2>Jest ona poświącona mojemu zamiłowaniu do gier wideo!</h2>
+          <h1>Qdi - youtuber, streamer i... programista</h1>
+          <h2>Jest to moja pierwsza strona, którą napisałem samodzielnie.</h2>
+          <h3>Jako front-end pre-junior developer, postanowiłem napisać tę stronę, która przedstawia mnie, moją działalność i kolekcję gier jaką przez lata stworzyłem</h3>
+          <div id='buttonsToSites'>
+            <div id='firstButton' onClick={() => navigate('/youtube')}>
+              <img src={first} id="firstImg"></img>
+              <p>Moje filmy na YouTube</p>
+            </div>
+            <div id='secondButton' onClick={() => navigate('/artykuly')}>
+              <img src={second} id="firstImg"></img>
+              <p>Moje artykuły i pisemne recenzje</p>
+            </div>
+            <div id='thirdButton' onClick={() => navigate('/kolekcje')}>
+              <img src={third} id="firstImg"></img>
+              <p>Moja kolekcja gier i nie tylko</p>
+            </div>
+          </div>
         </div>
       </div>
 

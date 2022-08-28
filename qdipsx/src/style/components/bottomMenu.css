@@ -1,8 +1,13 @@
 .bottomMenuContainer {
-    display: inline-block;
-    position: fixed;
+    /* display: inline-block; */
+    background-color: gray;
+    width: 98,5%;
+    /* height: 50px; */
+    display: flex;
+    position: static;
+    padding: 10px;
     z-index: 9999;
-    top: 20px;
+    /* top: 20px; */
 }
 
 .bottomMenuButton {

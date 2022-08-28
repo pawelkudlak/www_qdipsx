@@ -7,7 +7,7 @@ const YoutubePS11995 = () => {
   return (
     <div className='youtube'>
       <div>
-        <h3>Wrzesien (100% : 6/6)</h3>
+        <h3 id='gamesMouth'>Wrzesien (100% : 6/6)</h3>
         {HideAndShowButton('wrzesien')}
       </div>
       <div id='wrzesien'>
@@ -19,7 +19,7 @@ const YoutubePS11995 = () => {
         {GameInforForYouTubeV2("Street Figher - The Movie", "SLES-00050", "15 września 1995", "Capcom", "Acclaim", "https://www.youtube.com/embed/j1vcPUdO1Gs")}
       </div>
       <div>
-        <h3>Październik (100% : 6/6)</h3>
+        <h3 id='gamesMouth'>Październik (100% : 6/6)</h3>
         {HideAndShowButton('pazdziernik')}
       </div>
       <div id='pazdziernik'>
@@ -31,7 +31,7 @@ const YoutubePS11995 = () => {
         {GameInforForYouTubeV2("Novastorm", "SCES-00011 SCES-10011", "30 października 1995", "Psygnosis", "Psygnosis", "https://www.youtube.com/embed/ja5dvzAJLkY")}
       </div>
       <div>
-        <h3>Listopad (100% : 11/11)</h3>
+        <h3 id='gamesMouth'>Listopad (100% : 11/11)</h3>
         {HideAndShowButton('listopad')}
       </div>
       <div id='listopad'>
@@ -48,7 +48,7 @@ const YoutubePS11995 = () => {
         {GameInforForYouTubeV2("Defcon 5", "SLES-00081", "24 listopada 1995", " Millennium Interactive Ltd", "Psygnosis", "https://www.youtube.com/embed/6ax513N2Csk")}
       </div>
       <div>
-        <h3>Grudzien (100% : 11/11)</h3>
+        <h3 id='gamesMouth'>Grudzien (100% : 11/11)</h3>
         {HideAndShowButton('grudzien')}
       </div>
       <div id='grudzien'>

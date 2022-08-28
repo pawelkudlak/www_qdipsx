@@ -41,16 +41,6 @@
     display: block;
 }
 
-.tabela {
-    width: 300px;
-}
-
-table, th, td {
-    width: 300px;
-    border: 1px solid;
-    border-collapse: collapse;
-}
-
 #more {
     display: none;
 }

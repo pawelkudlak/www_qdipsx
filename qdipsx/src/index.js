@@ -39,6 +39,7 @@ import WiiPage from './pages/kolekcje/wiiPage';
 import OMniePage from './pages/omnie/omniePage';
 import KontaktPage from './pages/kontaktPage/kontaktPage';
 import SocialMediaPage from './pages/socialMediaPage/socialMediaPage';
+import NinjaShadowOfDarknessPage from './pages/artykuly/NinjaShadowOfDarknessPage';
 // import GamesSlice from './components/kolekcje/gamesSlice';
 
 
@@ -64,6 +65,7 @@ root.render(
             <Route index element={<ArtykulyPage />} />
             <Route path='lifeforcetenka' element={<LifeForceTenkaPage/>} />
             <Route path='crashbandicoot' element={<CrashBandicootPage/>} />
+            <Route path='ninjashadowofdarkness' element={<NinjaShadowOfDarknessPage/>} />
           </Route>
           <Route path='/kolekcje'>
             <Route index element={<KolekcjePage />} />

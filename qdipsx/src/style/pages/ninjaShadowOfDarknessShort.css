@@ -1,24 +1,11 @@
-.shortArticle {
-    display: grid;
-    grid-template-columns: auto auto;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    justify-items: end;
-    justify-items: center;
-    margin-top: 2%;
-    background-color: white;
-    box-shadow: 5px 5px 10px #cfcfcf;
+.logoContainer {
+    width: 200px;
+    height: 200px;
 }
 
-.logoContainerCB {
-    width: 200px;
-    height: 100%;
-}
-
-#logoCB {
-    width: 200px;
-    margin-top: 20%;
+#logoNSOD {
+    width: 100%;
+    margin-top: 30%;
 }
 
 #wstep {

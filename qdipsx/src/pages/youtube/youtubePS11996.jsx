@@ -7,7 +7,7 @@ const YouTubePS11996 = () => {
   return (
     <div className='youtube'>
       <div>
-        <h3>Styczeń (100% : 11/11)</h3>
+        <h3 id='gamesMouth'>Styczeń (100% : 11/11)</h3>
         {HideAndShowButton('styczen')}
       </div>
       <div id='styczen'>
@@ -24,7 +24,7 @@ const YouTubePS11996 = () => {
         {GameInforForYouTubeV2("Break Point", "SLES-00258", "18 stycznia 1996", "Smart Dog", "Ocean", "https://www.youtube.com/embed/8ZIRFkKjmjI")}
       </div>
       <div>
-        <h3>Luty (100% : 6/6)</h3>
+        <h3 id='gamesMouth'>Luty (100% : 6/6)</h3>
         {HideAndShowButton('luty')}
       </div>
       <div id='luty'>
@@ -36,7 +36,7 @@ const YouTubePS11996 = () => {
         {GameInforForYouTubeV2("Shockwave Assautl", "SLES-00071/10071", "16 lutego 1996", " Crystal Dynamics / Advanced Technology Group", "Electronic Arts", "https://www.youtube.com/embed/JlnIQvVtv5A")}
       </div>
       <div>
-        <h3>Marzec (100% : 15/15)</h3>
+        <h3 id='gamesMouth'>Marzec (100% : 15/15)</h3>
         {HideAndShowButton('marzec')}
       </div>
       <div id='marzec'>
@@ -57,7 +57,7 @@ const YouTubePS11996 = () => {
         {GameInforForYouTubeV2("Road & Tracks Presents: The Need for Speed / Over Drivin' DX", "SLES-00223", "29 marca 1996", "Pioneer Production", "Electronic Arts", "https://www.youtube.com/embed/uLySfMXsV6U")}
       </div>
       <div>
-        <h3>Kwiecień (100% : 8/8)</h3>
+        <h3 id='gamesMouth'>Kwiecień (100% : 8/8)</h3>
         {HideAndShowButton('kwiecien')}
       </div>
       <div id='kwiecien'>
@@ -71,7 +71,7 @@ const YouTubePS11996 = () => {
         {GameInforForYouTubeV2("Galaxy Fight", "SLES-00197", "30 kwietnia 1996", "Sunsoft", "Sunsoft", "https://www.youtube.com/embed/FBJRm2rWjzY")}
       </div>
       <div>
-        <h3>Maj (100% : 8/8)</h3>
+        <h3 id='gamesMouth'>Maj (100% : 8/8)</h3>
         {HideAndShowButton('maj')}
       </div>
       <div id='maj'>
@@ -85,7 +85,7 @@ const YouTubePS11996 = () => {
         {GameInforForYouTubeV2("Battle Arena Toshinden 2", "SCES-00232", "25 maja 1996", "Takara", "Sony", "https://www.youtube.com/embed/CP1oYqzmrVk")}
       </div>
       <div>
-        <h3>Czerwiec (100% : 9/9)</h3>
+        <h3 id='gamesMouth'>Czerwiec (100% : 9/9)</h3>
         {HideAndShowButton('czerwiec')}
       </div>
       <div id='czerwiec'>
@@ -100,7 +100,7 @@ const YouTubePS11996 = () => {
         {GameInforForYouTubeV2("Supersonic Racer / Dare Devil Derby 3D", "SLES-00080", "26 czerwca 1996", "Supersonic Software", "Mindscape", "https://www.youtube.com/embed/1ma-YZWQS8o")}
       </div>
       <div>
-        <h3>Lipiec (89% : 8/9)</h3>
+        <h3 id='gamesMouth'>Lipiec (89% : 8/9)</h3>
         {HideAndShowButton('lipiec')}
       </div>
       <div id='lipiec'>
@@ -114,14 +114,14 @@ const YouTubePS11996 = () => {
         {GameInforForYouTubeV2("Olympic Soccer - Atlanta '96", "SLES-00113", "18 lipca 1996", "Silicon Dreams", "U.S. Gold", "https://www.youtube.com/embed/bf_VeCnkS68")}
       </div>
       <div>
-        <h3>Sierpień (25% : 1/4)</h3>
+        <h3 id='gamesMouth'>Sierpień (25% : 1/4)</h3>
         {HideAndShowButton('sierpien')}
       </div>
       <div id='sierpien'>
         {GameInforForYouTubeV2("Bust-A-Move 2 - Arcade Edition", "SLES-00278", "15 sierpnia 1996", "Taito", "Acclaim", "https://www.youtube.com/embed/THClhLrSQK0")}
       </div>
       <div>
-        <h3>Wrzesień (33% : 3/9)</h3>
+        <h3 id='gamesMouth'>Wrzesień (33% : 3/9)</h3>
         {HideAndShowButton('wrzesien')}
       </div>
       <div id='wrzesien'>

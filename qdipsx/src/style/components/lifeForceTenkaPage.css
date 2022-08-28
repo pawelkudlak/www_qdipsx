@@ -24,16 +24,6 @@
     display: block;
 }
 
-.tabela {
-    width: 200px;
-}
-
-table, th, td {
-    width: 220px;
-    border: 1px solid;
-    border-collapse: collapse;
-}
-
 #more {
     display: none;
 }
