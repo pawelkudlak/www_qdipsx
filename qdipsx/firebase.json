@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site": "qdipsxofficial",
+    "public": "Y",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
