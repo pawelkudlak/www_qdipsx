@@ -16,7 +16,8 @@ body {
 #mainBanner {
     scale: 0.98;
     border-radius: 10px;
-    max-width: 100%;
+    width: 100%;
+    /* max-width: 100%; */
     height: auto;
 }
 
@@ -27,7 +28,8 @@ body {
 
 #buttonsToSites {
     display: flex;
-    margin-left: 8%;
+    /* margin-left: 8%; */
+    justify-content: space-evenly;
 }
 
 #firstButton {

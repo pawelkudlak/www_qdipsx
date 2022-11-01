@@ -28,6 +28,7 @@ import KolekcjePage from './pages/kolekcje/kolekcjePage';
 
 import GamesList from './components/kolekcje/gamesList.component';
 
+import Ps1Page from './pages/kolekcje/ps1Page';
 import XBoxPage from './pages/kolekcje/xBoxPage';
 import XBox360Page from './pages/kolekcje/xBox360Page';
 import XBoxOnePage from './pages/kolekcje/xBoxonePage';
@@ -69,7 +70,7 @@ root.render(
           </Route>
           <Route path='/kolekcje'>
             <Route index element={<KolekcjePage />} />
-            <Route path='ps1gameslist' element={<GamesList />}></Route>
+            <Route path='ps1gameslist' element={<Ps1Page />}></Route>
             <Route path='ps2gameslist' element={<GamesList />}></Route>
             <Route path='ps3gameslist' element={<GamesList />}></Route>
             <Route path='ps4gameslist' element={<GamesList />}></Route>

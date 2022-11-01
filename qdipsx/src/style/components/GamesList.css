@@ -31,7 +31,7 @@
 }
 
 #NoneAPIGamesList {
-    column-count: 1;
+    column-count: 3;
     column-gap: 10px;
     column-width: 20%;
     text-align: left;
@@ -40,4 +40,20 @@
 
 #GameListParagraph {
     margin: 0%;
+}
+
+#ReviewGameListParagraph {
+    margin: 0%;
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(0, 171, 159);
+}
+
+#ReviewGameListParagraph:hover {
+    color: rgb(46, 109, 180);
+}
+
+abbr[title] {
+    text-decoration: none;
+    font-weight: 600;
 }

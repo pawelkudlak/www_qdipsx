@@ -15,10 +15,11 @@ const KolekcjeMenuComponent = () => {
       <h1>Gry</h1>
       <hr></hr>
       <div className='sonyContainer'>
-        <div className='PS1GameCollectionButton' onClick={() => {
+        {/* <div className='PS1GameCollectionButton' onClick={() => {
           dispatch(fetchGames('PS1'))
           navigate(`/kolekcje/ps1gameslist`)
-        }}></div>
+        }}></div> */}
+        <div className='PS1GameCollectionButton' onClick={() => navigate(`/kolekcje/ps1gameslist`)}></div>
         <div className='PS2GameCollectionButton' onClick={() => {
           dispatch(fetchGames('PS2'))
           navigate(`/kolekcje/ps2gameslist`)
