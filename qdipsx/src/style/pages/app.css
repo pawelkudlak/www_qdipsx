@@ -76,3 +76,8 @@ body {
     cursor: pointer;
     scale: 1.05;
 }
+
+#mainDiv {
+    margin-left: 5%;
+    margin-right: 5%;
+}

@@ -15,7 +15,7 @@ function App() {
         <div id='banner'>
           <img src={banner} id='mainBanner'></img>
         </div>
-        <div>
+        <div id='mainDiv'>
           <h1>Qdi - youtuber, streamer i... programista</h1>
           <h2>Jest to moja pierwsza strona, którą napisałem samodzielnie.</h2>
           <h3>Jako front-end pre-junior developer, postanowiłem napisać tę stronę, która przedstawia mnie, moją działalność i kolekcję gier jaką przez lata stworzyłem</h3>
