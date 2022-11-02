@@ -3,11 +3,13 @@ import '../../style/components/GamesList.css'
 
 const XBoxPage = () => {
   return (
-    <div id="NoneAPIGamesList">
+    <div id="NoneAPIGamesListLess">
+      <ol>
         <h2>D:</h2>
-        <p id='GameListParagraph'>Doom 3</p>
+        <li><p id='GameListParagraph'>Doom 3</p></li>
         <h2>N:</h2>
-        <p id='GameListParagraph'>Need for Speed: Most Wanted</p>
+        <li><p id='GameListParagraph'>Need for Speed: Most Wanted</p></li>
+        </ol>
     </div>
   )
 }

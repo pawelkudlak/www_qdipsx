@@ -3,10 +3,12 @@ import '../../style/components/GamesList.css'
 
 const GBAPage = () => {
   return (
-    <div id="NoneAPIGamesList">
+    <div id="NoneAPIGamesListLess">
+      <ol>
         <h2>N:</h2>
-        <p id='GameListParagraph'>Need for Speed: Most Wanted</p>
-        <p id='GameListParagraph'>Need for Speed: Underground 2</p>
+        <li><p id='GameListParagraph'>Need for Speed: Most Wanted</p></li>
+        <li><p id='GameListParagraph'>Need for Speed: Underground 2</p></li>
+        </ol>
     </div>
   )
 }

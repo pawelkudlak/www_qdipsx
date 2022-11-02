@@ -29,6 +29,10 @@ import KolekcjePage from './pages/kolekcje/kolekcjePage';
 import GamesList from './components/kolekcje/gamesList.component';
 
 import Ps1Page from './pages/kolekcje/ps1Page';
+import Ps2Page from './pages/kolekcje/ps2Page';
+import Ps3Page from './pages/kolekcje/ps3Page';
+import Ps4Page from './pages/kolekcje/ps4Page';
+import PspPage from './pages/kolekcje/pspPage';
 import XBoxPage from './pages/kolekcje/xBoxPage';
 import XBox360Page from './pages/kolekcje/xBox360Page';
 import XBoxOnePage from './pages/kolekcje/xBoxonePage';
@@ -36,6 +40,7 @@ import GBAPage from './pages/kolekcje/gbaPage';
 import DSPage from './pages/kolekcje/dsPage';
 import GCPage from './pages/kolekcje/gcPage';
 import WiiPage from './pages/kolekcje/wiiPage';
+import PcPage from './pages/kolekcje/pcPage';
 
 import OMniePage from './pages/omnie/omniePage';
 import KontaktPage from './pages/kontaktPage/kontaktPage';
@@ -71,10 +76,10 @@ root.render(
           <Route path='/kolekcje'>
             <Route index element={<KolekcjePage />} />
             <Route path='ps1gameslist' element={<Ps1Page />}></Route>
-            <Route path='ps2gameslist' element={<GamesList />}></Route>
-            <Route path='ps3gameslist' element={<GamesList />}></Route>
-            <Route path='ps4gameslist' element={<GamesList />}></Route>
-            <Route path='pspgameslist' element={<GamesList />}></Route>
+            <Route path='ps2gameslist' element={<Ps2Page />}></Route>
+            <Route path='ps3gameslist' element={<Ps3Page />}></Route>
+            <Route path='ps4gameslist' element={<Ps4Page />}></Route>
+            <Route path='pspgameslist' element={<PspPage />}></Route>
 
             <Route path='xboxgameslist' element={<XBoxPage />}></Route>
             <Route path='xbox360gameslist' element={<XBox360Page />}></Route>
@@ -85,7 +90,7 @@ root.render(
             <Route path='gcgameslist' element={<GCPage />}></Route>
             <Route path='wiigameslist' element={<WiiPage />}></Route>
 
-            <Route path='pcgameslist' element={<GamesList />}></Route>
+            <Route path='pcgameslist' element={<PcPage />}></Route>
           </Route>
           <Route path='/omnie' element={<OMniePage />} />
           <Route path='/kontakt' element={<KontaktPage />} />
