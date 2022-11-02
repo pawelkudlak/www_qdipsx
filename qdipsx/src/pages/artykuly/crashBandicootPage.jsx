@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import screen1 from './img_CrashBandicoot/ss16.jpg'
 import screen2 from './img_CrashBandicoot/ss20.jpg'
 import screen3 from './img_CrashBandicoot/ss6.jpg'

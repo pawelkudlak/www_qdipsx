@@ -4,9 +4,9 @@ import '../../style/components/GamesList.css'
 const GamesAlphabetic = (litera, array) => {
 
     const filteredPS1Games = array.filter((ps1Game) => {
-        const { Lp, Tytuł } = ps1Game;
+        const { Tytuł } = ps1Game;
 
-        if (Tytuł[0] == litera) {
+        if (Tytuł[0] === litera) {
 
             return true
         }

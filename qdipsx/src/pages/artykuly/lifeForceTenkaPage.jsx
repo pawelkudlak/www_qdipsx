@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import screen1 from './img_LifeForceTenka/ss3.jpg'
 import screen2 from './img_LifeForceTenka/ss6.jpg'
 import screen3 from './img_LifeForceTenka/ss9.jpg'
@@ -54,8 +54,8 @@ const LifeForceTenkaPage = () => {
                     <img className='image' src={screen6} alt={"źródło: https://psxdatacenter.com/games/P/L/SLES-00613.html"} title={"To coś mówi: Taki @#uj"}></img>
                     <p lang='pl'>Pomimo tych problemów gra mnie w pewien sposób urzekła, może to z uwagi na sentyment wyniesiony z obcowania z wersją <abbr title='Wersja próbna gry, gdzie zazwyczaj dostępny jest tylko jeden poziom'>Demo</abbr>. Przyjdzie nam tu pokonać kilkanaście poziomów, które wręcz wycisną z nas ostatnie resztki cierpliwości i przetestują naszą wytrzymałość. Ja przechodziłem jeden poziom dziennie, gdyż ginąłem na nich tak często i obficie, że nie dałem rady mentalnie. Widząc końcowe napisy, radowałem się jak dziecko, znajdujące pod choinką wymarzony prezent. Jestem z siebie dumny, że udało mi się ten tytuł ukończyć.</p>
                     <div>
-                        <img></img>
-                        <img></img>
+                        {/* <img></img>
+                        <img></img> */}
                     </div>
                 </div>
             </div>

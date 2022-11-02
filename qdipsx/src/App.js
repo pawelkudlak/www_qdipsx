@@ -13,7 +13,7 @@ function App() {
     <div className='app'>
       <div>
         <div id='banner'>
-          <img src={banner} id='mainBanner'></img>
+          <img src={banner} id='mainBanner' alt="banner strony"></img>
         </div>
         <div id='mainDiv'>
           <h1>Qdi - youtuber, streamer i... programista</h1>
@@ -21,15 +21,15 @@ function App() {
           <h3>Jako front-end pre-junior developer, postanowiłem napisać tę stronę, która przedstawia mnie, moją działalność i kolekcję gier jaką przez lata stworzyłem</h3>
           <div id='buttonsToSites'>
             <div id='firstButton' onClick={() => navigate('/youtube')}>
-              <img src={first} id="firstImg"></img>
+              <img src={first} id="firstImg" alt="banner pierwszego przycisku"></img>
               <p>Moje filmy na YouTube</p>
             </div>
             <div id='secondButton' onClick={() => navigate('/artykuly')}>
-              <img src={second} id="firstImg"></img>
+              <img src={second} id="firstImg" alt="banner drugiego przycisku"></img>
               <p>Moje artykuły i pisemne recenzje</p>
             </div>
             <div id='thirdButton' onClick={() => navigate('/kolekcje')}>
-              <img src={third} id="firstImg"></img>
+              <img src={third} id="firstImg" alt="banner trzeciego przycisku"></img>
               <p>Moja kolekcja gier i nie tylko</p>
             </div>
           </div>

@@ -26,7 +26,7 @@ import CrashBandicootPage from './pages/artykuly/crashBandicootPage';
 
 import KolekcjePage from './pages/kolekcje/kolekcjePage';
 
-import GamesList from './components/kolekcje/gamesList.component';
+// import GamesList from './components/kolekcje/gamesList.component';
 
 import Ps1Page from './pages/kolekcje/ps1Page';
 import Ps2Page from './pages/kolekcje/ps2Page';

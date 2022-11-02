@@ -1,5 +1,5 @@
 import React from 'react'
-import { ExternalLink } from 'react-external-link';
+// import { ExternalLink } from 'react-external-link';
 import '../../style/components/GamesList.css'
 
 const Ps2Page = () => {
