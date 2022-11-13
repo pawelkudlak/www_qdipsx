@@ -11,14 +11,24 @@
     box-shadow: 5px 5px 10px #cfcfcf;
 }
 
-.logoContainerCB {
+.logoContainer {
     width: 200px;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
-#logoCB {
+#logo {
     width: 200px;
-    margin-top: 20%;
+    margin-left: 10%;
+}
+
+#logoBright {
+    width: 200px;
+    margin-left: 10%;
+    filter: drop-shadow(5px 5px 10px black);
 }
 
 #wstep {

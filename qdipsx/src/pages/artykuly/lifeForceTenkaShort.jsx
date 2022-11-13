@@ -1,6 +1,5 @@
 import React from 'react'
 import logo from './img_LifeForceTenka/LifeforceTenkaLogo.png'
-import "../../style/pages/lifeForceShort.css"
 import { useNavigate } from 'react-router-dom'
 
 const LifeForceTenkaShort = () => {

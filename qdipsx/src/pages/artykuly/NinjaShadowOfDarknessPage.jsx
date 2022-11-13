@@ -8,14 +8,14 @@ import screen5 from './img_NinjaShadowOfDarkness/ss5.jpg'
 import screen6 from './img_NinjaShadowOfDarkness/ss6.jpg'
 import screen7 from './img_NinjaShadowOfDarkness/ss7.jpg'
 import logo from './img_NinjaShadowOfDarkness/logo.png'
-import "../../style/components/ninjaShadowOfDarknessPage.css"
+import ButtonGoToTop from '../../components/buttomGoToTop';
 
 const NinjaShadowOfDarknessPage = () => {
 
     return (
         <div>
             <div className='artykul'>
-                <img id='logoCBF' src={logo} alt={"źródło: https://images.launchbox-app.com/3298b017-6ef5-4844-bcc4-a22e8db5da81.png"} title={"Tak wygląda logo gry"}></img>
+                <img className='logo' src={logo} alt={"źródło: https://images.launchbox-app.com/3298b017-6ef5-4844-bcc4-a22e8db5da81.png"} title={"Tak wygląda logo gry"}></img>
                 <p lang='pl'><abbr title='Inny gra studia, która odgrywała się w czasach współczesnych'>Fighting Force</abbr> w feudalnej Japonii z elementami platformowymi wyciągniętymi z pierwszego <abbr title='Przejdź do recenzji pierwszego Crasha'><Link to='../crashbandicoot'>Crasha</Link></abbr>, gdzie prowadzisz wojownika Ninja do walki przeciwko smokom lub demonicznym plugawstwom – tak mogę opisać w jednym zdaniu <b>Ninja: Shadow of Darkness</b> od Core Design</p>
                 <img className='image' src={screen1} alt={"źródło: https://psxdatacenter.com/games/P/N/SLES-01554.html"} title={"Najgorsze połączenie: wąski most i dużo przeciwników"}></img>
                 <p lang='pl'>Bardzo długo opierałem się tej grze, gdyż utkwiła ona w mej pamięci jako bardzo wymagającą. Po tylu latach, mając za sobą ukończone gry od <abbr title='Twórcy takiej serii jak Dark Souls lub gier jak: Bloodborne czy Elden Ring'>From Software</abbr>, byłem przekonany że jestem na nią gotowy… okazało się jednak że to była bardzo nieprzemyślana decyzja. Gra jest piekielnie trudna, wymagająca i wyciskająca z nas siódme poty. Nie wybacza ona błędów i wręcz wymaga od nas chirurgicznej precyzji w przechodzeniu plansz</p>
@@ -32,30 +32,27 @@ const NinjaShadowOfDarknessPage = () => {
                 <img className='image' src={screen7} alt={"źródło: https://psxdatacenter.com/games/P/N/SLES-01554.html"} title={"Walka parawianów na plaży nie oszczędziła również tej gry"}></img>
                 <p>Niestety po zakończeniu gry większą satysfakcję czerpałem z samego faktu jej ukończenia, niż z końcowej bardzo skromnej animacji.</p>
                 <div className='tabela'>
-                    <table id='tabelaInfo'>
-                        <tr>
-                            <td id='pierwszaKolumna'>Deweloper</td>
+                    <table className='tabelaInfo'>
+                        <tr className='tabelaInfo'>
+                            <td>Deweloper</td>
                             <td>Core Designe</td>
                         </tr>
-                        <tr>
-                            <td id='pierwszaKolumna'>Wydawca</td>
+                        <tr className='tabelaInfo'>
+                            <td>Wydawca</td>
                             <td>Eidos</td>
                         </tr>
-                        <tr>
-                            <td id='pierwszaKolumna'>Data wydania</td>
+                        <tr className='tabelaInfo'>
+                            <td>Data wydania</td>
                             <td>30 września 1998</td>
                         </tr>
-                        <tr>
-                            <td id='pierwszaKolumna'>Numer Seryjny</td>
+                        <tr className='tabelaInfo'>
+                            <td>Numer Seryjny</td>
                             <td>SLES-01554</td>
                         </tr>
                     </table>
                 </div>
-                <div>
-                    {/* <img></img>
-                <img></img> */}
-                </div>
             </div>
+            <ButtonGoToTop />
         </div>
     )
 }

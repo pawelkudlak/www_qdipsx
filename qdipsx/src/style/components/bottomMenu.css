@@ -1,7 +1,7 @@
 .bottomMenuContainer {
     /* display: inline-block; */
     background-color: gray;
-    width: 98,5%;
+    width: 98, 5%;
     /* height: 50px; */
     display: flex;
     position: static;
@@ -27,5 +27,25 @@
 .bottomMenuButton:active {
     background-color: white;
     color: black;
+    cursor: pointer;
+}
+
+#buttomToTop {
+    background-color: gray;
+    text-align: center;
+    color: white;
+    border: none;
+    padding: 10px 15px 10px 15px;
+    margin-top: 5%;
+    transition: 0.3s;
+    text-decoration: none;
+    width: 100%;
+    /* position: fixed;
+    z-index: 99;
+    bottom: 0px; */
+}
+
+#buttomToTop:hover {
+    background-color: black;
     cursor: pointer;
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from './img_CrashBandicoot/logo_CrashBandicoot.png'
-import "../../style/pages/crashBandicootShort.css"
+import "../../style/pages/arcticulesShort.css"
 import { useNavigate } from 'react-router-dom'
 
 const CrashBandicootShort = () => {
@@ -9,8 +9,8 @@ const CrashBandicootShort = () => {
 
     return (
         <div className='shortArticle'>
-            <div className='logoContainerCB'>
-                <img id='logoCB' src={logo} alt={"źródło: samemu okroiłem z okładki"} title={"Tak wygląda logo gry"}></img>
+            <div className='logoContainer'>
+                <img id='logo' src={logo} alt={"źródło: samemu okroiłem z okładki"} title={"Tak wygląda logo gry"}></img>
             </div>
             <div>
                 <div>

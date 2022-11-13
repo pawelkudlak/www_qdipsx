@@ -5,18 +5,18 @@ const XBoxOnePage = () => {
   return (
     <div id="NoneAPIGamesListLess">
       <ol>
-        <h2>C:</h2>
+        <h2 className='collectionGamesLatters'>C:</h2>
         <li><p id='GameListParagraph'>Crew</p></li>
 
-        <h2>D:</h2>
+        <h2 className='collectionGamesLatters'>D:</h2>
         <li><p id='GameListParagraph'>Dark Souls: Remastered</p></li>
         <li><p id='GameListParagraph'>Dark Souls 2: Scholar of the First Sin</p></li>
         <li><p id='GameListParagraph'>Dark Souls 3</p></li>
 
-        <h2>G:</h2>
+        <h2 className='collectionGamesLatters'>G:</h2>
         <li><p id='GameListParagraph'>Gears of War: Ultimate Edition</p></li>
 
-        <h2>T:</h2>
+        <h2 className='collectionGamesLatters'>T:</h2>
         <li><p id='GameListParagraph'>Titanfall</p></li>
         </ol>
     </div>

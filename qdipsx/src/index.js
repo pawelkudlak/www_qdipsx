@@ -22,7 +22,10 @@ import Pozostale from './pages/youtube/pozostale';
 import ArtykulyPage from './pages/artykuly/artykulyPage';
 
 import LifeForceTenkaPage from './pages/artykuly/lifeForceTenkaPage';
+import HerculesPage from './pages/artykuly/herculesPage';
 import CrashBandicootPage from './pages/artykuly/crashBandicootPage';
+import NinjaShadowOfDarknessPage from './pages/artykuly/NinjaShadowOfDarknessPage';
+import WRCArcadePage from './pages/artykuly/wRCArcadePage';
 
 import KolekcjePage from './pages/kolekcje/kolekcjePage';
 
@@ -45,7 +48,6 @@ import PcPage from './pages/kolekcje/pcPage';
 import OMniePage from './pages/omnie/omniePage';
 import KontaktPage from './pages/kontaktPage/kontaktPage';
 import SocialMediaPage from './pages/socialMediaPage/socialMediaPage';
-import NinjaShadowOfDarknessPage from './pages/artykuly/NinjaShadowOfDarknessPage';
 // import GamesSlice from './components/kolekcje/gamesSlice';
 
 
@@ -69,6 +71,8 @@ root.render(
           </Route>
           <Route path='/artykuly'>
             <Route index element={<ArtykulyPage />} />
+            <Route path='wrcarcade' element={<WRCArcadePage/>} />
+            <Route path='hercules' element={<HerculesPage/>}/>
             <Route path='lifeforcetenka' element={<LifeForceTenkaPage/>} />
             <Route path='crashbandicoot' element={<CrashBandicootPage/>} />
             <Route path='ninjashadowofdarkness' element={<NinjaShadowOfDarknessPage/>} />

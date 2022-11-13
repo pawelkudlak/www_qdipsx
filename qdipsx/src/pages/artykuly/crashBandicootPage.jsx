@@ -7,14 +7,14 @@ import screen5 from './img_CrashBandicoot/ss1.jpg'
 import screen6 from './img_CrashBandicoot/ss2.jpg'
 import screen7 from './img_CrashBandicoot/ss3.jpg'
 import logo from './img_CrashBandicoot/logo_CrashBandicoot.png'
-import "../../style/components/crashBandicootPage.css"
+import ButtonGoToTop from '../../components/buttomGoToTop'
 
 const CrashBandicootPage = () => {
 
     return (
         <div>
             <div className='artykul'>
-                <img id='logoCBF' src={logo} alt={"źródło: samemu okroiłem z okładki"} title={"Tak wygląda logo gry"}></img>
+                <img className='logo' src={logo} alt={"źródło: samemu okroiłem z okładki"} title={"Tak wygląda logo gry"}></img>
                 <p lang='pl'>Można ją z łatwością przejść w dwie godziny, ale zdobycie stu procent wymaga nie lada odwagi, wytrzymałości oraz szczęścia. Tak oto widzę pierwszą produkcję studia Naughty Dog na PlayStation.</p>
                 <img className='image' src={screen1} alt={"źródło: https://psxdatacenter.com/games/P/L/SLES-00613.html"} title={"Ta plansza niszczyła dzieciństwo"}></img>
                 <p lang='pl'>Tę odsłonę charakteryzuje to, że można ją jednocześnie kochać i nienawidzić. Gra jest piękna! W 1996 roku na PlayStation nie wyszło dużo platformówek w trzech wymiarach np. Bubsy 3D, Pandemonium! czy Cheesy, które wyszły różnie jak i wyglądały inaczej. Poza tym, inne tytuły z tego roku zostały przez Crasha zmiażdżone jak tytułowy jamraj przez kamienne bloki. Zasadą tej gry jest pokonanie wszystkich plansz na trzech wyspach, nie tracąc przy tym wszystkich żyć.</p>
@@ -33,30 +33,27 @@ const CrashBandicootPage = () => {
                 <img className='image' src={screen7} alt={"źródło: Własne"} title={"Ujeżdżanie dzika, to jest TO!!!"}></img>
                 <p>Crash Bandicoot jest tak samo smaczny jak owoce Wumpa, posmakujesz jak zagrasz, mogą one być dla Ciebie słodkie, z lekką goryczką lub w ogóle niestrawne - wszystko zależy od Twojej tolerancji na wymagające gry, cierpliwości i chęci uczenia się schematów, poprzez wielokrotne ich powtarzanie.</p>
                 <div className='tabela'>
-                    <table id='tabelaInfo'>
-                        <tr>
+                    <table className='tabelaInfo'>
+                        <tr className='tabelaInfo'>
                             <td>Deweloper</td>
                             <td>Naughty Dog</td>
                         </tr>
-                        <tr>
+                        <tr className='tabelaInfo'>
                             <td>Wydawca</td>
                             <td>Sony</td>
                         </tr>
-                        <tr>
+                        <tr className='tabelaInfo'>
                             <td>Data wydania</td>
                             <td>15 listopada 1996</td>
                         </tr>
-                        <tr>
+                        <tr className='tabelaInfo'>
                             <td>Numer Seryjny</td>
                             <td>SCES-00344</td>
                         </tr>
                     </table>
                 </div>
-                <div>
-                    {/* <img></img>
-                <img></img> */}
-                </div>
             </div>
+            <ButtonGoToTop />
         </div>
     )
 }

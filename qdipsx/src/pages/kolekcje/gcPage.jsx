@@ -5,7 +5,7 @@ const GCPage = () => {
   return (
     <div id="NoneAPIGamesListLess">
       <ol>
-      <h2>N:</h2>
+      <h2 className='collectionGamesLatters'>N:</h2>
       <li><p id='GameListParagraph'>Need for Speed: Most Wanted</p></li>
       <li><p id='GameListParagraph'>Need for Speed: Underground 2</p></li>
       </ol>
