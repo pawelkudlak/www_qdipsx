@@ -17,6 +17,7 @@ const PspPage = () => {
         <li><p id='GameListParagraph'>Driver 76</p></li>
 
         <h2 className='collectionGamesLatters'>F:</h2>
+        <li><p id='GameListParagraph'>F1 2009</p></li>
         <li><p id='GameListParagraph'>F1 Grand Prix</p></li>
         <li><p id='GameListParagraph'>FIFA 10</p></li>
         <li><p id='GameListParagraph'>Final Fantasy VII: Crisis Core</p></li>

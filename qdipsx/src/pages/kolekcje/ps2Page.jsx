@@ -72,6 +72,7 @@ const Ps2Page = () => {
           <li><p id='GameListParagraph'>Final Fantasy X</p></li>
           <li><p id='GameListParagraph'>Final Fantasy XII</p></li>
           <li><p id='GameListParagraph'>Firefighter F.D.18</p></li>
+          <li><p id='GameListParagraph'>Forgotten Realms: Demon Stone</p></li>
           <li><p id='GameListParagraph'>Freak Out</p></li>
 
           <h2 className='collectionGamesLatters'>G:</h2>
@@ -176,6 +177,7 @@ const Ps2Page = () => {
           <li><p id='GameListParagraph'>RS Riding Spirits</p></li>
           <li><p id='GameListParagraph'>RS3 Racing Simulator Three</p></li>
           <li><p id='GameListParagraph'>Run Like Hell</p></li>
+          <li><p id='GameListParagraph'>Rune Viking Warlord</p></li>
 
           <h2 className='collectionGamesLatters'>S:</h2>
           <li><p id='GameListParagraph'>Scarface</p></li>
@@ -217,6 +219,7 @@ const Ps2Page = () => {
           <li><p id='GameListParagraph'>Tony Hawk's Proskater 3</p></li>
           <li><p id='GameListParagraph'>Tony Hawk's Underground</p></li>
           <li><p id='GameListParagraph'>Tony Hawk's Underground 2</p></li>
+          <li><p id='GameListParagraph'>Tomb Raider: Underworld</p></li>
           <li><p id='GameListParagraph'>Transformers The Game</p></li>
           <li><p id='GameListParagraph'>True Crime New York City</p></li>
           <li><p id='GameListParagraph'>True Crime Streets of LA</p></li>

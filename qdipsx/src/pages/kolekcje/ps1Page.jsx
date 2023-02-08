@@ -104,6 +104,7 @@ const Ps1Page = () => {
           <li><p id='GameListParagraph'>Celebrity Deathmatch</p></li>
           <li><p id='GameListParagraph'>Check Mate</p></li>
           <li><p id='GameListParagraph'>Chessmaster II</p></li>
+          <li><p id='GameListParagraph'>Chessmaster 3-D</p></li>
           <li><p id='GameListParagraph'>Chocobo Racing</p></li>
           <li><p id='GameListParagraph'>Circuit Breakers</p></li>
           <li><p id='GameListParagraph'>Cleopatra Fortunes</p></li>
@@ -535,6 +536,7 @@ const Ps1Page = () => {
           <li><p id='GameListParagraph'>Tiger Woods 99</p></li>
           <li><p id='GameListParagraph'>Tiger Woods PGA Tour 2000</p></li>
           <li><p id='GameListParagraph'>Tigger's Honey Hunt</p></li>
+          <li><p id='GameListParagraph'>Time Commando</p></li>
           <li><p id='GameListParagraph'>Time Crisis</p></li>
           <li><p id='GameListParagraph'>Timeshock!</p></li>
           <li><p id='GameListParagraph'>Tobal No. 1</p></li>

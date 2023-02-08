@@ -13,7 +13,7 @@ const SocialMediaPage = () => {
           width={500}
         />
       </div>
-
+      
       <div>
         <FacebookEmbed url="https://www.facebook.com/qdipsx/posts/pfbid034vGP6y6cm2PLXjqsX7d6f9cQf8br1f6Np78oDy8gMxMLpx2kKRtdrU9pG48VwvUCl" width={500} />
       </div>

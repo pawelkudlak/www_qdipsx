@@ -1,12 +1,12 @@
 import React from 'react'
-import { useDispatch } from 'react-redux';
+// import { useDispatch } from 'react-redux';
 import { useNavigate } from 'react-router-dom'
 import "../../style/components/kolekcjeMenu.css"
-import { fetchGames } from './gamesSlice';
+// import { fetchGames } from './gamesSlice';
 
 const KolekcjeMenuComponent = () => {
 
-  const dispatch = useDispatch();
+  // const dispatch = useDispatch();
 
   const navigate = useNavigate();
 
@@ -21,19 +21,19 @@ const KolekcjeMenuComponent = () => {
         }}></div> */}
         <div className='PS1GameCollectionButton' onClick={() => navigate(`/kolekcje/ps1gameslist`)}></div>
         <div className='PS2GameCollectionButton' onClick={() => {
-          dispatch(fetchGames('PS2'))
+          // dispatch(fetchGames('PS2'))
           navigate(`/kolekcje/ps2gameslist`)
         }}></div>
         <div className='PS3GameCollectionButton' onClick={() => {
-          dispatch(fetchGames('PS3'))
+          // dispatch(fetchGames('PS3'))
           navigate(`/kolekcje/ps3gameslist`)
         }}></div>
         <div className='PS4GameCollectionButton' onClick={() => {
-          dispatch(fetchGames('PS4'))
+          // dispatch(fetchGames('PS4'))
           navigate(`/kolekcje/ps4gameslist`)
           }}></div>
         <div className='PSPGameCollectionButton' onClick={() => {
-          dispatch(fetchGames('PSP'))
+          // dispatch(fetchGames('PSP'))
           navigate(`/kolekcje/pspgameslist`)
           }}></div>
       </div>
@@ -55,16 +55,16 @@ const KolekcjeMenuComponent = () => {
       <hr></hr>
       <div className='sonyContainer'>
         <div className='PCGameCollectionButton' onClick={() => {
-          dispatch(fetchGames('PC'))
+          // dispatch(fetchGames('PC'))
           navigate(`/kolekcje/pcgameslist`)
           }}></div>
       </div>
-      <h1>Czasopisma Growe</h1>
+      {/* <h1>Czasopisma Growe</h1>
       <div className='gazetyContainer'>
         <div className='CDAGazetaCollectionButton'></div>
         <div className='PSXEGazetaCollectionButton'></div>
         <div className='NeoPlusGazetaCollectionButton'></div>
-      </div>
+      </div> */}
     </div>
   )
 }

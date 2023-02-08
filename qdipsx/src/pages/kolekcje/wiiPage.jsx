@@ -5,6 +5,10 @@ const WiiPage = () => {
   return (
     <div id="NoneAPIGamesListLess">
       <ol>
+      
+        <h2 className='collectionGamesLatters'>F:</h2>
+        <li><p id='GameListParagraph'>F1 2009</p></li>
+
         <h2 className='collectionGamesLatters'>L:</h2>
         <li><p id='GameListParagraph'>Legend of Spyro: Dawn of the Dragon</p></li>
         <li><p id='GameListParagraph'>Legend of Zelda: Twilight Princess</p></li>
