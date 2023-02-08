@@ -16,9 +16,12 @@ function App() {
           <img src={banner} id='mainBanner' alt="banner strony"></img>
         </div>
         <div id='mainDiv'>
-          <h1>Qdi - youtuber, streamer i... programista</h1>
-          <h2>Jest to moja pierwsza strona, którą napisałem samodzielnie.</h2>
-          <h3>Jako front-end pre-junior developer, postanowiłem napisać tę stronę, która przedstawia mnie, moją działalność i kolekcję gier jaką przez lata stworzyłem</h3>
+          <h1>Qdi - youtuber na urlopie, reaktywowany streamer i początkujący programista front-end</h1>
+          <h2>Znajdziesz tutaj wiele rzeczy związanych z grami i moją działalnością w sieci. Kolekcje gier, czasopism (wkrótce), recenzji na youtube i pisemnych, ale nie tylko.</h2>
+          <h3>W zakładce Youtube, możesz zapoznać się z moją twórczością na tym portalu. Są tam wszystkie moje recenzje gier z PlayStation oraz kilka innych ciekawych materiałów.</h3>
+          <h3>Artykuły zawierają moje recenzje pisemne gier na PlayStation 1. Jest ich niewiele, ale to dlatego że od niedawna zająłem się tym tematem. Są one zamiennikiem recenzji filmowych.</h3>
+          <h3>W Kolekcjach możesz poznać całą moją kolekcje gier które posiadam. Są tam gry na konsole film Sony, Microsoft oraz Nintedo. Udało się się po części wypisać część kolekcji gier na PC.</h3>
+          <h3>Jeżeli zainteresowała Ciebie moja skromna osoba, to możesz odwiedzić zakładkę "O mnie" i tam po krótce poznasz trochę informacji na mój temat.</h3>
           <div id='buttonsToSites'>
             <div id='firstButton' onClick={() => navigate('/youtube')}>
               <img src={first} id="firstImg" alt="banner pierwszego przycisku"></img>
