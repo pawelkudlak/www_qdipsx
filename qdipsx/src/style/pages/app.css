@@ -81,3 +81,61 @@ body {
     margin-left: 5%;
     margin-right: 5%;
 }
+
+@media screen and (max-width: 900px) {
+    .app {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    #mainDiv {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 12%;
+    }
+
+    h1 {
+        font-size: large;
+    }
+
+    h2 {
+        font-size: medium;
+    }
+
+    h3 {
+        font-size: small;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .app {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    #mainDiv {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 8%;
+    }
+
+    h1 {
+        font-size: large;
+    }
+
+    h2 {
+        font-size: medium;
+    }
+
+    h3 {
+        font-size: small;
+    }
+
+    #buttonsToSites {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 5%;
+    }
+}

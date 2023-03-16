@@ -1,4 +1,4 @@
-#buttonDoPobieraniaListyGier {
+/* #buttonDoPobieraniaListyGier {
     background-color: gray;
     text-align: center;
     color: white;
@@ -20,7 +20,7 @@
     background-color: white;
     color: black;
     cursor: pointer;
-}
+} */
 
 #GamesList {
     column-count: 3;
@@ -73,4 +73,10 @@ abbr[title] {
     padding-bottom: 3px;
     text-align: center;
     font-weight: 400;
+}
+
+@media (max-width: 480px) {
+    #NoneAPIGamesList {
+        column-count: 1;
+    }
 }

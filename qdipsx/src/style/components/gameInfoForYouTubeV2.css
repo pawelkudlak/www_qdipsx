@@ -21,3 +21,17 @@
     font-size: 25px;
     font-weight: bold;
 }
+
+@media screen and (max-width: 900px){
+    .gameInfoDescription {
+        width: 400px;
+    }
+
+    #youTubeMiniature {
+        width: 100%;
+    }
+
+    .gameInfoBlock {
+        justify-content: center;
+    }
+}

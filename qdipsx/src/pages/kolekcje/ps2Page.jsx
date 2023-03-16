@@ -139,6 +139,8 @@ const Ps2Page = () => {
           <li><p id='GameListParagraph'>Metal Gear Solid 2 Sons of Liberty</p></li>
           <li><p id='GameListParagraph'>Metal Gear Solid 2 Substance</p></li>
           <li><p id='GameListParagraph'>Metal Gear Solid 3 Snake Eater</p></li>
+          <li><p id='GameListParagraph'>Mortal Kombat: Deception</p></li>
+          <li><p id='GameListParagraph'>Mortal Kombat: Armageddon</p></li>
           <li><p id='GameListParagraph'>MotoGP3</p></li>
           <li><p id='GameListParagraph'>MTV MusicGenerator 2</p></li>
           <li><p id='GameListParagraph'>MX Unlished</p></li>

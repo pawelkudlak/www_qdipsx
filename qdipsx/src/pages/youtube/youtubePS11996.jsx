@@ -8,9 +8,9 @@ const YouTubePS11996 = () => {
     <div className='youtube'>
       <div>
         <h3 id='gamesMouth'>Styczeń (100% : 11/11)</h3>
-        {HideAndShowButton('styczen')}
+        {HideAndShowButton('Styczen')}
       </div>
-      <div id='styczen'>
+      <div id='Styczen'>
         {GameInforForYouTubeV2("NHL FaceOff", "SCES-00220", "1 stycznia 1996", "Sony", "Sony", "https://www.youtube.com/embed/8fVjT6-8gHI")}
         {GameInforForYouTubeV2("Krazy Ivan", "SLES-00084", "1 stycznia 1996", "Psygnosis", "Psygnosis", "https://www.youtube.com/embed/Evg99Toqsmw")}
         {GameInforForYouTubeV2("Alien Trilogy", "SLES-00101", "3 stycznia 1996", "Probe Entertainment", "Acclaim", "https://www.youtube.com/embed/HdJq733eDmY")}
@@ -25,9 +25,9 @@ const YouTubePS11996 = () => {
       </div>
       <div>
         <h3 id='gamesMouth'>Luty (100% : 6/6)</h3>
-        {HideAndShowButton('luty')}
+        {HideAndShowButton('Luty')}
       </div>
-      <div id='luty'>
+      <div id='Luty'>
         {GameInforForYouTubeV2("Assault Rigs", "SLES-00093", "1 lutego 1996", "The WheelHause", "Psygnosis", "https://www.youtube.com/embed/tx0paHPqqww")}
         {GameInforForYouTubeV2("Power Serve / Ground Stroke", "SLES-00118", "9 lutego 1996", "SPS", "Ocean", "https://www.youtube.com/embed/QZgqMN62DsI")}
         {GameInforForYouTubeV2("Loaded / Blood Factory", "SLES-00013", "10 lutego 1996", " Gremlin Interactive", " Gremlin Interactive", "https://www.youtube.com/embed/7zzHUX1WtSY")}
@@ -37,9 +37,9 @@ const YouTubePS11996 = () => {
       </div>
       <div>
         <h3 id='gamesMouth'>Marzec (100% : 15/15)</h3>
-        {HideAndShowButton('marzec')}
+        {HideAndShowButton('Marzec')}
       </div>
-      <div id='marzec'>
+      <div id='Marzec'>
         {GameInforForYouTubeV2("Philosoma", "SCES-00059", "1 marca 1996", "G-Artists / Sugar & Rocket", "Sony", "https://www.youtube.com/embed/NmX8625EFKQ")}
         {GameInforForYouTubeV2("Disney's Mickey's Wild Adventure", "SLES-00163", "1 marca 1996", "Traveller's Tales", "Sony / Disney Interactive", "https://www.youtube.com/embed/15cvs3v39Kk")}
         {GameInforForYouTubeV2("Hebereke's Popoitto / Hebereke Station Popoitto", "SLES-00156", "1 marca 1996", "Sunsoft", "Sunsoft", "https://www.youtube.com/embed/pTa23A-mDR0")}
@@ -58,9 +58,9 @@ const YouTubePS11996 = () => {
       </div>
       <div>
         <h3 id='gamesMouth'>Kwiecień (100% : 8/8)</h3>
-        {HideAndShowButton('kwiecien')}
+        {HideAndShowButton('Kwiecien')}
       </div>
-      <div id='kwiecien'>
+      <div id='Kwiecien'>
         {GameInforForYouTubeV2("Psychic Detective", "SLES-0070/10070/20070", "1 kwietnia 1996", "Colossal Pictures", "Electronic Arts", "https://www.youtube.com/embed/dCRrO9Ju05M")}
         {GameInforForYouTubeV2("Extreme Pinball", "SLES-00206", "5 kwietnia 1996", "Epic MegaGames", "Electronic Arts", "https://www.youtube.com/embed/UyvyqoqbGF4")}
         {GameInforForYouTubeV2("Revolution X", "SLES-00129", "12 kwietnia 1996", "Software Creations", "Acclaim", "https://www.youtube.com/embed/PbTA9F_IEfY")}
@@ -72,9 +72,9 @@ const YouTubePS11996 = () => {
       </div>
       <div>
         <h3 id='gamesMouth'>Maj (100% : 8/8)</h3>
-        {HideAndShowButton('maj')}
+        {HideAndShowButton('Maj')}
       </div>
-      <div id='maj'>
+      <div id='Maj'>
         {GameInforForYouTubeV2("Ridge Racer - Revolution", "SCES-00242", "1 maja 1996", "Namco", "Sony", "https://www.youtube.com/embed/3k3_0357YCk")}
         {GameInforForYouTubeV2("True Pinball / Tekkyuu", "SLES-00052", "1 maja 1996", " Digital Illusions CE AB", "Ocean", "https://www.youtube.com/embed/gdVIA0mck9s")}
         {GameInforForYouTubeV2("NBA Live 96", "SLES-00225", "1 maja 1996", "EA Sports", "EA Sports", "https://www.youtube.com/embed/PcgPxSyZSuM")}
@@ -86,9 +86,9 @@ const YouTubePS11996 = () => {
       </div>
       <div>
         <h3 id='gamesMouth'>Czerwiec (100% : 9/9)</h3>
-        {HideAndShowButton('czerwiec')}
+        {HideAndShowButton('Czerwiec')}
       </div>
-      <div id='czerwiec'>
+      <div id='Czerwiec'>
         {GameInforForYouTubeV2("Viewpoint", "SLES-00123", "1 czerwca 1996", "Visual Concepts", "Electronic Arts", "https://www.youtube.com/embed/dpwCTB3KK4c")}
         {GameInforForYouTubeV2("A IV - Evolution Global / A-Train", "SCES-00290", "5 czerwca 1996", "Artdink", "Sony", "https://www.youtube.com/embed/EuNjaHp_gh0")}
         {GameInforForYouTubeV2("Adidas Power Soccer", "SLES-00189", "10 czerwca 1996", "Psygnosis", "Psygnosis", "https://www.youtube.com/embed/j62b0dzqD08")}
@@ -101,9 +101,9 @@ const YouTubePS11996 = () => {
       </div>
       <div>
         <h3 id='gamesMouth'>Lipiec (89% : 8/9)</h3>
-        {HideAndShowButton('lipiec')}
+        {HideAndShowButton('Lipiec')}
       </div>
-      <div id='lipiec'>
+      <div id='Lipiec'>
         {GameInforForYouTubeV2("Fade to Black", "SLES-00209", "1 lipca 1996", "Delphine Software", " Electronic Arts", "https://www.youtube.com/embed/lVHXAs7UMks")}
         {GameInforForYouTubeV2("Pro Pinball - The Web", "SLES-00259", "1 lipca 1996", "Cunning Developments", "Empire Interactive / Interplay", "https://www.youtube.com/embed/AJbYLxBxNTs")}
         {GameInforForYouTubeV2("Space Hulk - Vengeance of the Blood Angels", "SLES-00207", "5 lipca 1996", "Krisalis Software / Key Game", "Electronic Arts", "https://www.youtube.com/embed/fLBgJQk5uUI")}
@@ -115,16 +115,16 @@ const YouTubePS11996 = () => {
       </div>
       <div>
         <h3 id='gamesMouth'>Sierpień (25% : 1/4)</h3>
-        {HideAndShowButton('sierpien')}
+        {HideAndShowButton('Sierpien')}
       </div>
-      <div id='sierpien'>
+      <div id='Sierpien'>
         {GameInforForYouTubeV2("Bust-A-Move 2 - Arcade Edition", "SLES-00278", "15 sierpnia 1996", "Taito", "Acclaim", "https://www.youtube.com/embed/THClhLrSQK0")}
       </div>
       <div>
         <h3 id='gamesMouth'>Wrzesień (33% : 3/9)</h3>
-        {HideAndShowButton('wrzesien')}
+        {HideAndShowButton('Wrzesien')}
       </div>
-      <div id='wrzesien'>
+      <div id='Wrzesien'>
         {GameInforForYouTubeV2("Killing Zone", "SLES-00446", "6 września 1996", "Scarab", "Acclaim", "https://www.youtube.com/embed/ZaZUa07YBbc")}
         {GameInforForYouTubeV2("Starfighter 3000", "SLES-00293", "10 września 1996", "Krisalis Software", "Telstar", "https://www.youtube.com/embed/7Y7xyl3BCbI")}
         {GameInforForYouTubeV2("Formula 1", "SLES-00298", "15 września 1996", "Bizarre Creations", "Psygnosis", "https://www.youtube.com/embed/bTVNQrSZf1c")}

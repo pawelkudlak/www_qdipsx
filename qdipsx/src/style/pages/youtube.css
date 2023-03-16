@@ -2,18 +2,18 @@
     margin-top: 3%;
 }
 
-#styczen,
-#luty,
-#marzec,
-#kwiecien,
-#maj,
-#czerwiec,
-#lipiec,
-#sierpien,
-#wrzesien,
-#pazdziernik,
-#listopad,
-#grudzien {
+#Styczen,
+#Luty,
+#Marzec,
+#Kwiecien,
+#Maj,
+#Czerwiec,
+#Lipiec,
+#Sierpien,
+#Wrzesien,
+#Pazdziernik,
+#Listopad,
+#Grudzien {
     display: none;
 }
 
@@ -21,7 +21,7 @@
     text-align: center;
 }
 
-#showHidestyczen {
+#showHideStyczen {
     background-color: gray;
     text-align: center;
     color: white;
@@ -33,18 +33,18 @@
     cursor: pointer;
 }
 
-#showHidestyczen:hover {
+#showHideStyczen:hover {
     background-color: black;
     cursor: pointer;
 }
 
-#showHidestyczen:active {
+#showHideStyczen:active {
     background-color: white;
     color: black;
     cursor: pointer;
 }
 
-#showHideluty {
+#showHideLuty {
     background-color: gray;
     text-align: center;
     color: white;
@@ -56,18 +56,18 @@
     cursor: pointer;
 }
 
-#showHideluty:hover {
+#showHideLuty:hover {
     background-color: black;
     cursor: pointer;
 }
 
-#showHideluty:active {
+#showHideLuty:active {
     background-color: white;
     color: black;
     cursor: pointer;
 }
 
-#showHidemarzec {
+#showHideMarzec {
     background-color: gray;
     text-align: center;
     color: white;
@@ -79,18 +79,18 @@
     cursor: pointer;
 }
 
-#showHidemarzec:hover {
+#showHideMarzec:hover {
     background-color: black;
     cursor: pointer;
 }
 
-#showHidemarzec:active {
+#showHideMarzec:active {
     background-color: white;
     color: black;
     cursor: pointer;
 }
 
-#showHidekwiecien {
+#showHideKwiecien {
     background-color: gray;
     text-align: center;
     color: white;
@@ -102,18 +102,18 @@
     cursor: pointer;
 }
 
-#showHidekwiecien:hover {
+#showHideKwiecien:hover {
     background-color: black;
     cursor: pointer;
 }
 
-#showHidekwiecien:active {
+#showHideKwiecien:active {
     background-color: white;
     color: black;
     cursor: pointer;
 }
 
-#showHidemaj {
+#showHideMaj {
     background-color: gray;
     text-align: center;
     color: white;
@@ -125,18 +125,18 @@
     cursor: pointer;
 }
 
-#showHidemaj:hover {
+#showHideMaj:hover {
     background-color: black;
     cursor: pointer;
 }
 
-#showHidemaj:active {
+#showHideMaj:active {
     background-color: white;
     color: black;
     cursor: pointer;
 }
 
-#showHideczerwiec {
+#showHideCzerwiec {
     background-color: gray;
     text-align: center;
     color: white;
@@ -148,18 +148,18 @@
     cursor: pointer;
 }
 
-#showHideczerwiec:hover {
+#showHideCzerwiec:hover {
     background-color: black;
     cursor: pointer;
 }
 
-#showHideczerwiec:active {
+#showHideCzerwiec:active {
     background-color: white;
     color: black;
     cursor: pointer;
 }
 
-#showHidelipiec {
+#showHideLipiec {
     background-color: gray;
     text-align: center;
     color: white;
@@ -171,18 +171,18 @@
     cursor: pointer;
 }
 
-#showHidelipiec:hover {
+#showHideLipiec:hover {
     background-color: black;
     cursor: pointer;
 }
 
-#showHidelipiec:active {
+#showHideLipiec:active {
     background-color: white;
     color: black;
     cursor: pointer;
 }
 
-#showHidesierpien {
+#showHideSierpien {
     background-color: gray;
     text-align: center;
     color: white;
@@ -194,18 +194,18 @@
     cursor: pointer;
 }
 
-#showHidesierpien:hover {
+#showHideSierpien:hover {
     background-color: black;
     cursor: pointer;
 }
 
-#showHidesierpien:active {
+#showHideSierpien:active {
     background-color: white;
     color: black;
     cursor: pointer;
 }
 
-#showHidewrzesien {
+#showHideWrzesien {
     background-color: gray;
     text-align: center;
     color: white;
@@ -217,18 +217,18 @@
     cursor: pointer;
 }
 
-#showHidewrzesien:hover {
+#showHideWrzesien:hover {
     background-color: black;
     cursor: pointer;
 }
 
-#showHidewrzesien:active {
+#showHideWrzesien:active {
     background-color: white;
     color: black;
     cursor: pointer;
 }
 
-#showHidepazdziernik {
+#showHidePazdziernik {
     background-color: gray;
     text-align: center;
     color: white;
@@ -240,18 +240,18 @@
     cursor: pointer;
 }
 
-#showHidepazdziernik:hover {
+#showHidePazdziernik:hover {
     background-color: black;
     cursor: pointer;
 }
 
-#showHidepazdziernik:active {
+#showHidePazdziernik:active {
     background-color: white;
     color: black;
     cursor: pointer;
 }
 
-#showHidelistopad {
+#showHideListopad {
     background-color: gray;
     text-align: center;
     color: white;
@@ -263,18 +263,18 @@
     cursor: pointer;
 }
 
-#showHidelistopad:hover {
+#showHideListopad:hover {
     background-color: black;
     cursor: pointer;
 }
 
-#showHidelistopad:active {
+#showHideListopad:active {
     background-color: white;
     color: black;
     cursor: pointer;
 }
 
-#showHidegrudzien {
+#showHideGrudzien {
     background-color: gray;
     text-align: center;
     color: white;
@@ -286,13 +286,121 @@
     cursor: pointer;
 }
 
-#showHidegrudzien:hover {
+#showHideGrudzien:hover {
     background-color: black;
     cursor: pointer;
 }
 
-#showHidegrudzien:active {
+#showHideGrudzien:active {
     background-color: white;
     color: black;
     cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+    #showHideStyczen {
+        padding: 10px 0px 10px 0px;
+    }
+
+    #showHideLuty {
+        padding: 10px 0px 10px 0px;
+    }
+
+    #showHideMarzec {
+        padding: 10px 0px 10px 0px;
+    }
+
+    #showHideKwiecien {
+        padding: 10px 0px 10px 0px;
+    }
+
+    #showHideMaj {
+        padding: 10px 0px 10px 0px;
+    }
+
+    #showHideCzerwiec {
+        padding: 10px 0px 10px 0px;
+    }
+    
+    #showHideLipiec {
+        padding: 10px 0px 10px 0px;
+    }
+
+    #showHideSierpien {
+        padding: 10px 0px 10px 0px;
+    }
+    
+    #showHideWrzesien {
+        padding: 10px 0px 10px 0px;
+    }
+    
+    #showHidePazdziernik {
+        padding: 10px 0px 10px 0px;
+    }
+
+    #showHideListopad {
+        padding: 10px 0px 10px 0px;
+    }
+
+    #showHideGrudzien {
+        padding: 10px 0px 10px 0px;
+    }
+
+    .youtube {
+        margin-bottom: 15%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #showHideStyczen {
+        padding: 10px 0px 10px 0px;
+    }
+
+    #showHideLuty {
+        padding: 10px 0px 10px 0px;
+    }
+
+    #showHideMarzec {
+        padding: 10px 0px 10px 0px;
+    }
+
+    #showHideKwiecien {
+        padding: 10px 0px 10px 0px;
+    }
+
+    #showHideMaj {
+        padding: 10px 0px 10px 0px;
+    }
+
+    #showHideCzerwiec {
+        padding: 10px 0px 10px 0px;
+    }
+    
+    #showHideLipiec {
+        padding: 10px 0px 10px 0px;
+    }
+
+    #showHideSierpien {
+        padding: 10px 0px 10px 0px;
+    }
+    
+    #showHideWrzesien {
+        padding: 10px 0px 10px 0px;
+    }
+    
+    #showHidePazdziernik {
+        padding: 10px 0px 10px 0px;
+    }
+
+    #showHideListopad {
+        padding: 10px 0px 10px 0px;
+    }
+
+    #showHideGrudzien {
+        padding: 10px 0px 10px 0px;
+    }
+
+    .youtube {
+        margin-bottom: 15%;
+    }
 }

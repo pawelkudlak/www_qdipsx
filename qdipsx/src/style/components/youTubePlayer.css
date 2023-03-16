@@ -19,3 +19,21 @@
     color: black;
     cursor: pointer;
 }
+
+@media screen and (max-width: 900px) {
+
+    #youTubeShowerButton {
+        width: 100%;
+        padding: 10px 0px 10px 0px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+
+    #youTubeShowerButton {
+        width: 100%;
+        padding: 10px 0px 10px 0px;
+    }
+
+}

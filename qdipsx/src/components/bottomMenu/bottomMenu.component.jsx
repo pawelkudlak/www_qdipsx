@@ -7,9 +7,17 @@ const BottomMenuComponent = () => {
     <div className='bottomMenuContainer'>
       <nav>
         <NavLink className={'bottomMenuButton'} to={"/"}>Strona Główna</NavLink>
+      </nav>
+      <nav>
         <NavLink className={'bottomMenuButton'} to={"/youtube"}>YouTube</NavLink>
+      </nav>
+      <nav>
         <NavLink className={'bottomMenuButton'} to={"/artykuly"}>Artykuły</NavLink>
+      </nav>
+      <nav>
         <NavLink className={'bottomMenuButton'} to={"/kolekcje"}>Kolekcje</NavLink>
+      </nav>
+      <nav>
         <NavLink className={'bottomMenuButton'} to={"/omnie"}>O mnie</NavLink>
       </nav>
     </div>

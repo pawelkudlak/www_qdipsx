@@ -10,12 +10,15 @@ const YouTubePlayer = (link) => {
         setShowVideo(!showVideo);
     }
 
+    const windowResolutionX = window.screen.width*0.95;
+    const windowResolutionY = windowResolutionX*0.5625;
+
     const buttonText = showVideo ? "Ukryj film" : "Wyświetl Recenzję na YouTube";
 
     return (
         <div>
             <div id="youTubeShowerButton" onClick={toggleShowVideo}>{buttonText}</div>
-            {showVideo && <ReactPlayer url={link} />}
+            {showVideo && <ReactPlayer url={link} width={windowResolutionX} height={windowResolutionY}/>}
         </div>
     )
 

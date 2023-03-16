@@ -143,6 +143,10 @@ const PcPage = () => {
           <li><p id='GameListParagraph'>Dark Mod</p></li>
           <li><p id='GameListParagraph'>Dark Rein 2</p></li>
           <li><p id='GameListParagraph'>Dark Sector</p></li>
+          <li><p id='GameListParagraph'>Dark Souls</p></li>
+          <li><p id='GameListParagraph'>Dark Souls 2</p></li>
+          <li><p id='GameListParagraph'>Dark Souls 2: Scholar of the First Sin</p></li>
+          <li><p id='GameListParagraph'>Dark Souls 3</p></li>
           <li><p id='GameListParagraph'>Dark Star One</p></li>
           <li><p id='GameListParagraph'>Darkness Withind: In Pursuit of Loath Nolder</p></li>
           <li><p id='GameListParagraph'>Day Witch</p></li>

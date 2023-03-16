@@ -8,9 +8,9 @@ const YoutubePS11995 = () => {
     <div className='youtube'>
       <div>
         <h3 id='gamesMouth'>Wrzesien (100% : 6/6)</h3>
-        {HideAndShowButton('wrzesien')}
+        {HideAndShowButton('Wrzesien')}
       </div>
-      <div id='wrzesien'>
+      <div id='Wrzesien'>
         {GameInforForYouTubeV2("Ridge Racer", "SCES-00001", "29 września 1995", "Namco", "Sony", "https://www.youtube.com/embed/yEn1GEfpn58")}
         {GameInforForYouTubeV2("Battle Arena Toshinden", "SCES-00002", "9 września 1995", "Takara", "Sony", "https://www.youtube.com/embed/mp23HydazdE")}
         {GameInforForYouTubeV2("Rapid Reload / Gunner's Heaven", "SCES-00004", "1 września 1995", "Media Vision", "Sony", "https://www.youtube.com/embed/O36G9xIWpIY")}
@@ -20,9 +20,9 @@ const YoutubePS11995 = () => {
       </div>
       <div>
         <h3 id='gamesMouth'>Październik (100% : 6/6)</h3>
-        {HideAndShowButton('pazdziernik')}
+        {HideAndShowButton('Pazdziernik')}
       </div>
-      <div id='pazdziernik'>
+      <div id='Pazdziernik'>
         {GameInforForYouTubeV2("Jumping Flash!", "SCES-00003", "1 października 1995", "Exact", "Sony", "https://www.youtube.com/embed/FOiFkN9s6zg")}
         {GameInforForYouTubeV2("Lemmings 3D", "SCES-00009", "1 października 1995", "Clockwork Games", "Psygnosis", "https://www.youtube.com/embed/Rc52y7asJo8")}
         {GameInforForYouTubeV2("Air Combat / Ace Combat", "SCES-00007", "10 października 1995", "Namco", "Namco", "https://www.youtube.com/embed/on-juHF1Hlc")}
@@ -32,9 +32,9 @@ const YoutubePS11995 = () => {
       </div>
       <div>
         <h3 id='gamesMouth'>Listopad (100% : 11/11)</h3>
-        {HideAndShowButton('listopad')}
+        {HideAndShowButton('Listopad')}
       </div>
-      <div id='listopad'>
+      <div id='Listopad'>
         {GameInforForYouTubeV2("Tekken", "SCES-00005", "1 listopada 1995", "Namco", "Namco", "https://www.youtube.com/embed/6uVr5PtpPYg")}
         {GameInforForYouTubeV2("Cyber Sled", "SCES-00006", "10 listopada 1995", "Namco", "Namco", "https://www.youtube.com/embed/trBrSB0lYvo")}
         {GameInforForYouTubeV2("Kileak - The Blood", "SCES-00035", "10 listopada 1995", "Genki", "Sony", "https://www.youtube.com/embed/pd_oixH0PE8")}
@@ -49,9 +49,9 @@ const YoutubePS11995 = () => {
       </div>
       <div>
         <h3 id='gamesMouth'>Grudzien (100% : 11/11)</h3>
-        {HideAndShowButton('grudzien')}
+        {HideAndShowButton('Grudzien')}
       </div>
-      <div id='grudzien'>
+      <div id='Grudzien'>
         {GameInforForYouTubeV2("Hi-Octane", "SLES-00115", "1 grudnia 1995", "Bullfrog", "Electronic Arts", "https://www.youtube.com/embed/2cAsUadOgVg")}
         {GameInforForYouTubeV2("FIFA Soccer 96", "SLES-00116", "1 grudnia 1995", "Extended Play (EA Canada)", "Electronic Arts", "https://www.youtube.com/embed/1sUOkbkiSv0")}
         {GameInforForYouTubeV2("Destruction Derby", "SCES-00008", "10 grudnia 1995", "Reflections Interactive", "Psygnosis", "https://www.youtube.com/embed/ZOCZO6YA2N8")}

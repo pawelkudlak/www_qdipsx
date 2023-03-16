@@ -28,3 +28,9 @@
     opacity: 0.5;
     transition: 0.2s;
   }
+
+  @media (max-width: 480px) {
+    .top10Conteiner {
+      margin-bottom: 15%;
+  }
+  }
